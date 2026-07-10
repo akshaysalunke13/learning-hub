@@ -1,0 +1,288 @@
+[
+  {
+    "type": "article",
+    "title": "10 Years of Meta’s Commitment to Python",
+    "desc": "This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/"
+  },
+  {
+    "type": "article",
+    "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+    "desc": "We are open-sourcing the initial version of RCCLX – an enhanced version of RCCL that we developed and tested on Meta’s internal workloads. RCCLX is fully integrated with Torchcomms and aims to empower researchers and developers to accelerate innovation, regardless of their chosen backend. Communication patterns for AI models are constantly evolving, as are hardware [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-02-24",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/"
+  },
+  {
+    "type": "article",
+    "title": "Scaling LLM Inference: Innovations in Tensor Parallelism, Context Parallelism, and Expert Parallelism",
+    "desc": "At Meta, we are constantly pushing the boundaries of LLM inference systems to power applications such as the Meta AI App. We’re sharing how we developed and implemented advanced parallelism techniques to optimize key performance metrics related to resource efficiency, throughput, and latency. The rapid evolution of large language models (LLMs) has ushered in a [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-10-17",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/10/17/ai-research/scaling-llm-inference-innovations-tensor-parallelism-context-parallelism-expert-parallelism/"
+  },
+  {
+    "type": "article",
+    "title": "LLMs Are the Key to Mutation Testing and Better Compliance",
+    "desc": "Following our keynote presentations at FSE 2025 and Eurostar 2025, we’re delving further into the development of Meta’s Automated Compliance Hardening (ACH) tool, an LLM-based tool for software testing that is automating aspects of compliance adherence at Meta, while accelerating developer and product velocity. By leveraging LLMs we’ve been able to overcome the barriers that [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-09-30",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/09/30/security/llms-are-the-key-to-mutation-testing-and-better-compliance/"
+  },
+  {
+    "type": "article",
+    "title": "Meta 3D AssetGen: Generating 3D Worlds With AI",
+    "desc": "Imagine being able to use AI to create 3D virtual worlds using prompts as easily as you can generate images. The intersection of AI and VR was one of the biggest topics at Meta Connect this year. In his keynote, Mark Zuckerberg shared his vision of a future where anyone can create virtual worlds using [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/09/29/virtual-reality/assetgen-generating-3d-worlds-with-ai/"
+  },
+  {
+    "type": "article",
+    "title": "Meta’s Infrastructure Evolution and the Advent of AI",
+    "desc": "Over the past 21 years, Meta has grown exponentially from a small social network connecting a few thousand people in a handful of universities in the U.S. into several apps and novel hardware products that serve over 3.4 billion people throughout the world. Our infrastructure has evolved significantly over the years, growing from a [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/"
+  },
+  {
+    "type": "article",
+    "title": "Diff Risk Score: AI-driven risk-aware software development",
+    "desc": "The state of the research Diff Risk Score (DRS) is an AI-powered technology built at Meta that predicts the likelihood of a code change causing a production incident, also known as a SEV. Built on a fine-tuned Llama LLM, DRS evaluates code changes and metadata to produce a risk score and highlight potentially risky code [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-08-06",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/08/06/developer-tools/diff-risk-score-drs-ai-risk-aware-software-development-meta/"
+  },
+  {
+    "type": "article",
+    "title": "Building a human-computer interface for everyone",
+    "desc": "What if you could control any device using only subtle hand movements? New research from Meta’s Reality Labs is pointing even more firmly toward wrist-worn devices using surface electromyography (sEMG) becoming the future of human-computer interaction. But how do you develop a wrist-worn input device that works for everyone? Generalization has been one of the [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-08-04",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/08/04/virtual-reality/building-a-human-computer-interface-for-everyone-meta-tech-podcast/"
+  },
+  {
+    "type": "article",
+    "title": "Using AI to make lower-carbon, faster-curing concrete",
+    "desc": "Meta has developed an open-source AI tool to design concrete mixes that are stronger, more sustainable, and ready to build with faster—speeding up construction while reducing environmental impact. The AI tool leverages Bayesian optimization, powered by Meta’s BoTorch and Ax frameworks, and was developed with Amrize and the University of Illinois Urbana-Champaign (U of I) [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/07/16/data-center-engineering/ai-make-lower-carbon-faster-curing-concrete/"
+  },
+  {
+    "type": "article",
+    "title": "Accelerating GPU indexes in Faiss with NVIDIA cuVS",
+    "desc": "Meta and NVIDIA collaborated to accelerate vector search on GPUs by integrating NVIDIA cuVS into Faiss v1.10, Meta’s open source library for similarity search. This new implementation of cuVS will be more performant than classic GPU-accelerated search in some areas. For inverted file (IVF) indexing, NVIDIA cuVS outperforms classical GPU-accelerated IVF build times by up [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-05-08",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/05/08/data-infrastructure/accelerating-gpu-indexes-in-faiss-with-nvidia-cuvs/"
+  },
+  {
+    "type": "article",
+    "title": "Introducing AutoPatchBench: A Benchmark for AI-Powered Security Fixes",
+    "desc": "We are introducing AutoPatchBench, a benchmark for the automated repair of vulnerabilities identified through fuzzing. By providing a standardized benchmark, AutoPatchBench enables researchers and practitioners to objectively evaluate and compare the effectiveness of various AI program repair systems. This initiative facilitates the development of more robust security solutions, and also encourages collaboration within the community [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-04-29",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/04/29/ai-research/autopatchbench-benchmark-ai-powered-security-fixes/"
+  },
+  {
+    "type": "article",
+    "title": "Building multimodal AI for Ray-Ban Meta glasses",
+    "desc": "Multimodal AI – models capable of processing multiple different types of inputs like speech, text, and images – have been transforming user experiences in the wearables space. With our Ray-Ban Meta glasses, multimodal AI helps the glasses see what the wearer is seeing. This means anyone wearing Ray-Ban Meta glasses can ask them questions about [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2025-03-04",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2025/03/04/virtual-reality/building-multimodal-ai-for-ray-ban-meta-glasses/"
+  },
+  {
+    "type": "article",
+    "title": "How open source AI can improve population estimates, sustainable energy, and the delivery of climate change interventions",
+    "desc": "Data for Good at Meta is open-sourcing the data used to train our AI-powered population maps. We’re hoping that researchers and other organizations around the world will be able to leverage these tools to assist with a wide range of projects including those on climate adaptation, public health and disaster response. The dataset and code [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-10-03",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/10/03/ml-applications/open-source-ai-population-maps-meta/"
+  },
+  {
+    "type": "article",
+    "title": "How PyTorch powers AI training and inference",
+    "desc": "Learn about new PyTorch advancements for LLMs and how PyTorch is enhancing every aspect of the LLM lifecycle. In this talk from AI Infra @ Scale 2024, software engineers Wanchao Liang and Evan Smothers are joined by Meta research scientist Kimish Patel to discuss our newest features and tools that enable large-scale training, memory efficient [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-23",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/23/ml-applications/pytorch-ai-training-inference/"
+  },
+  {
+    "type": "article",
+    "title": "Inside the hardware and co-design of MTIA",
+    "desc": "In this talk from AI Infra @ Scale 2024, Joel Colburn, a software engineer at Meta, technical lead Junqiang Lan, and software engineer Jack Montgomery discuss the second generation of MTIA, Meta’s in-house training and inference accelerator. They cover the co-design process behind building the second generation of Meta’s first-ever custom silicon for AI workloads, [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-22",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/22/ml-applications/meta-mtia-hardware-co-design/"
+  },
+  {
+    "type": "article",
+    "title": "Bringing Llama 3 to life",
+    "desc": "Llama 3 is Meta’s most capable openly-available LLM to date and the recently-released Llama 3.1 will enable new workflows, such as synthetic data generation and model distillation with unmatched flexibility, control, and state-of-the-art capabilities that rival the best closed source models. At AI Infra @ Scale 2024, Meta engineers discussed every step of how we [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-21",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/21/production-engineering/bringing-llama-3-to-life/"
+  },
+  {
+    "type": "article",
+    "title": "Aparna Ramani discusses the future of AI infrastructure",
+    "desc": "Delivering new AI technologies at scale also means rethinking every layer of our infrastructure – from silicon and software systems and even our data center designs. For the second year in a row, Meta’s engineering and infrastructure teams returned for the AI Infra @ Scale conference, where they discussed the challenges of scaling up an [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-20",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/20/data-infrastructure/aparna-ramani-future-of-ai-infrastructure-meta/"
+  },
+  {
+    "type": "article",
+    "title": "How Meta animates AI-generated images at scale",
+    "desc": "We launched Meta AI with the goal of giving people new ways to be more productive and unlock their creativity with generative AI (GenAI). But GenAI also comes with challenges of scale. As we deploy new GenAI technologies at Meta, we also focus on delivering these services to people as quickly and efficiently as possible. [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-14",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/14/production-engineering/how-meta-animates-ai-generated-images-at-scale/"
+  },
+  {
+    "type": "article",
+    "title": "RoCE networks for distributed AI training at scale",
+    "desc": "AI networks play an important role in interconnecting tens of thousands of GPUs together, forming the foundational infrastructure for training, enabling large models with hundreds of billions of parameters such as LLAMA 3.1 405B. This week at ACM SIGCOMM 2024 in Sydney, Australia, we are sharing details on the network we have built at Meta [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-08-05",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/08/05/data-center-engineering/roce-network-distributed-ai-training-at-scale/"
+  },
+  {
+    "type": "article",
+    "title": "Building Meta’s GenAI Infrastructure",
+    "desc": "Marking a major investment in Meta’s AI future, we are announcing two 24k GPU clusters. We are sharing details on the hardware, network, storage, design, performance, and software that help us extract high throughput and reliability for various AI workloads. We use this cluster design for Llama 3 training. We are strongly committed to open [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-03-12",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/"
+  },
+  {
+    "type": "article",
+    "title": "How Meta is advancing GenAI",
+    "desc": "What’s going on with generative AI (GenAI) at Meta? And what does the future have in store? In this episode of the Meta Tech Podcast, Meta engineer Pascal Hartig (@passy) speaks with Devi Parikh, an AI research director at Meta. They cover a wide range of topics, including the history and future of GenAI and the most [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2024-01-11",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2024/01/11/ml-applications/meta-advancing-genai/"
+  },
+  {
+    "type": "article",
+    "title": "How Meta is creating custom silicon for AI",
+    "desc": "Olivia Wu, Meta’s Technical Lead for Infra Silicon, discusses the design and development of Meta’s first-generation AI inference accelerator. [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2023-10-18",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2023/10/18/ml-applications/meta-ai-custom-silicon-olivia-wu/"
+  }
+]

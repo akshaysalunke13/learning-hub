@@ -1,0 +1,249 @@
+[
+  {
+    "type": "article",
+    "title": "LiteRT.js, Google's high performance Web AI Inference",
+    "desc": "We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI runtime to the web. Built for JavaScript developers, LiteRT.js delivers state-of-the-art ML model inference performance on WebGPU and upcoming WebNN, with a fallback to WebAssembly for CPU. This post provides a quick tour of LiteRT.js and gives web developers everything they need to get started.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/"
+  },
+  {
+    "type": "article",
+    "title": "Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini",
+    "desc": "On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-08",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/"
+  },
+  {
+    "type": "article",
+    "title": "We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText",
+    "desc": "Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/"
+  },
+  {
+    "type": "article",
+    "title": "Why we built ADK 2.0",
+    "desc": "Answering the questions of \"why we built ADK 2.0\".  This explains the rationale, some of the features, and why a developer should consider upgrading.  This will be published the day after ADK go 2.0 launches.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-01",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/why-we-built-adk-20/"
+  },
+  {
+    "type": "article",
+    "title": "ML Development in VS Code with Google Cloud Power: Workbench Extension Now Available",
+    "desc": "The Google Cloud Workbench Notebooks extension for VS Code has officially launched, allowing developers to connect their local IDE to scalable, cloud-based Jupyter environments. This integration streamlines the machine learning lifecycle by eliminating context switching and providing direct access to high-performance Google Cloud infrastructure. To support transparency and community-driven innovation, the newly released extension is fully open-sourced and available on GitHub and the VS Code Marketplace.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-01",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/"
+  },
+  {
+    "type": "article",
+    "title": "Build agentic full-stack apps with Genkit",
+    "desc": "The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-01",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/"
+  },
+  {
+    "type": "article",
+    "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
+    "desc": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/"
+  },
+  {
+    "type": "article",
+    "title": "Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration",
+    "desc": "The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/announcing-adk-go-20/"
+  },
+  {
+    "type": "article",
+    "title": "Measuring What Matters with Jules",
+    "desc": "AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/measuring-what-matters-with-jules/"
+  },
+  {
+    "type": "article",
+    "title": "Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A",
+    "desc": "How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/"
+  },
+  {
+    "type": "article",
+    "title": "How A2A is Building a World of Collaborative Agents",
+    "desc": "Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-18",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/"
+  },
+  {
+    "type": "article",
+    "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
+    "desc": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-17",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/a2ui-and-mcp-apps/"
+  },
+  {
+    "type": "article",
+    "title": "Announcing the Agentic Resource Discovery specification",
+    "desc": "An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-17",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/"
+  },
+  {
+    "type": "article",
+    "title": "Unlocking the Power of the TPU Stack: Introducing our new Developer Hub",
+    "desc": "Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-16",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/"
+  },
+  {
+    "type": "article",
+    "title": "DiffusionGemma: The Developer Guide",
+    "desc": "DiffusionGemma is an experimental text-generation model built on the Gemma 4 architecture that uses diffusion-based parallel generation instead of token-by-token autoregression, enabling much faster inference, bidirectional context awareness, and real-time self-correction while remaining deployable on consumer GPUs. Its architecture generates and refines 256-token blocks in parallel through iterative denoising, allowing it to handle complex constraint-based tasks such as Sudoku more effectively than traditional language models and demonstrating strong gains from fine-tuning. The model integrates with vLLM and other popular inference frameworks, giving developers access to a new non-autoregressive approach that combines high performance, efficient long-context scaling, and straightforward customization and deployment.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-10",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/diffusiongemma-the-developer-guide/"
+  },
+  {
+    "type": "article",
+    "title": "Introducing the Google Colab CLI",
+    "desc": "Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs or models like fine-tuned Gemma 3 adapters. By integrating directly into standard terminal environments, the tool is highly programmable and ready to be used by AI agents such as Antigravity or Claude Code to manage complex machine learning pipelines.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-05",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/introducing-the-google-colab-cli/"
+  },
+  {
+    "type": "article",
+    "title": "Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge",
+    "desc": "Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-03",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/"
+  },
+  {
+    "type": "article",
+    "title": "Gemma 4 12B: The Developer Guide",
+    "desc": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-06-03",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/"
+  },
+  {
+    "type": "article",
+    "title": "How the community trained Gemma to \"Think\" with Tunix and TPUs",
+    "desc": "The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-05-28",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/"
+  }
+]

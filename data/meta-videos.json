@@ -1,0 +1,155 @@
+[
+  {
+    "type": "video",
+    "id": "1VUfyfeeURw",
+    "title": "Llamacon 2025 - Keynote + Conversation with Mark Zuckerberg and Ali Ghodsi",
+    "desc": "Join us as we dive into the world of AI at LlamaCon 2025. This session features a keynote presentation with Chief Product Officer Chris Cox, VP of Llama Manohar Paluri, and Llama Researcher Angela Fan. Together, they wil",
+    "author": "Meta Developers",
+    "date": "2025-05-06",
+    "views": 20873,
+    "durationSeconds": 4027,
+    "duration": "1:07:07",
+    "order": 1,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/1VUfyfeeURw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1VUfyfeeURw&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=1"
+  },
+  {
+    "type": "video",
+    "id": "WaJOONFllLc",
+    "title": "Llamacon 2025 - Conversation with Mark Zuckerberg and Satya Nadella",
+    "desc": "Join us for an insightful afternoon at LlamaCon 2025 as we delve into the latest trends in AI. This session features a compelling discussion between Meta Founder and CEO Mark Zuckerberg and Microsoft Chairman and CEO Sat",
+    "author": "Meta Developers",
+    "date": "2025-05-07",
+    "views": 198274,
+    "durationSeconds": 1910,
+    "duration": "31:50",
+    "order": 2,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/WaJOONFllLc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=WaJOONFllLc&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=2"
+  },
+  {
+    "type": "video",
+    "id": "kgUc3WJvOM4",
+    "title": "Introducing Llama API: A Seamless Way to Revolutionize Your Workflow",
+    "desc": "Join Dom Divakaruni, Director of Product Management at Meta, as he unveils the Llama API—a groundbreaking platform designed to empower developers and businesses with seamless access to advanced AI models. Discover how Ll",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 1003685,
+    "durationSeconds": 629,
+    "duration": "10:29",
+    "order": 3,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/kgUc3WJvOM4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=kgUc3WJvOM4&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=3"
+  },
+  {
+    "type": "video",
+    "id": "-m0XywLdSPg",
+    "title": "Tailoring Llama for Your Needs: Fine-Tuning & Evaluation",
+    "desc": "Join Michael Slater, Product Manager at Meta, as he delves into the world of Llama model customization in this insightful session from LlamaCon 2025. Discover how you can leverage your existing data to fine-tune a smalle",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 1259214,
+    "durationSeconds": 533,
+    "duration": "8:53",
+    "order": 4,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/-m0XywLdSPg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=-m0XywLdSPg&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=4"
+  },
+  {
+    "type": "video",
+    "id": "jMIg0Y_kKok",
+    "title": "The Llama Toolbox: A Collection of Practical Tools and Recipes",
+    "desc": "Join Hamid Shojanazeri, Manager of Partner Engineering at Meta, as he unveils the latest tools and techniques to maximize the performance of Llama models. In this session, you'll discover how to streamline your developer",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 903755,
+    "durationSeconds": 1287,
+    "duration": "21:27",
+    "order": 5,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/jMIg0Y_kKok/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=jMIg0Y_kKok&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=5"
+  },
+  {
+    "type": "video",
+    "id": "AlJ1af9875E",
+    "title": "New Protection Tools for Llama Developers",
+    "desc": "Join Lauren Deason, Software Engineer at Meta, as she unveils the latest advancements in AI security tools at LlamaCon. Discover how Meta is pioneering AI safety with the introduction of LlamaGuard 4, PromptGuard 2, and ",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 1425,
+    "durationSeconds": 675,
+    "duration": "11:15",
+    "order": 6,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/AlJ1af9875E/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=AlJ1af9875E&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=6"
+  },
+  {
+    "type": "video",
+    "id": "DKPpe-cESkI",
+    "title": "Unpack the Latest Llama 4 Herd",
+    "desc": "Join Rangaprabhu Parthasarathy, Director of Product Management at Meta, as he unveils the groundbreaking advancements in the Llama 4 models at LlamaCon. Discover how Llama 4 Scout and Maverick are revolutionizing AI with",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 979717,
+    "durationSeconds": 706,
+    "duration": "11:46",
+    "order": 7,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/DKPpe-cESkI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=DKPpe-cESkI&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=7"
+  },
+  {
+    "type": "video",
+    "id": "RpfTy93M5HY",
+    "title": "How Leidos Boosts Developer Efficiency With Llama and Sourcegraph",
+    "desc": "Join us for an insightful session from LlamaCon where Beyang Liu, CTO and Co-Founder of Sourcegraph, discusses how the integration of Sourcegraph with Llama, a suite of open-source large language models, has transformed ",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 652,
+    "durationSeconds": 141,
+    "duration": "2:21",
+    "order": 8,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/RpfTy93M5HY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=RpfTy93M5HY&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=8"
+  },
+  {
+    "type": "video",
+    "id": "Lhpwg6MDPOo",
+    "title": "Finetune Llama 4 Faster With Unsloth",
+    "desc": "Join Daniel Han-Chen, CEO of Unsloth AI, in this insightful session from LlamaCon as he delves into the cutting-edge advancements in training Llama models. Discover how Unsloth AI is revolutionizing the process of traini",
+    "author": "Meta Developers",
+    "date": "2025-05-19",
+    "views": 2538,
+    "durationSeconds": 166,
+    "duration": "2:46",
+    "order": 9,
+    "tags": [
+      "LlamaCon 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/Lhpwg6MDPOo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Lhpwg6MDPOo&list=PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-&index=9"
+  }
+]

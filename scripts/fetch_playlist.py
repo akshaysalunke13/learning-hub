@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Refresh data/anthropic-videos.json from the YouTube Data API v3.
+"""Refresh data/<lab>-videos.json files from the YouTube Data API v3.
 
 Usage:
-    YOUTUBE_API_KEY=xxxx python3 scripts/fetch_playlist.py
+    YOUTUBE_API_KEY=xxxx python3 scripts/fetch_playlist.py [lab ...]
 
-Requires a YouTube Data API v3 key (console.cloud.google.com -> APIs &
-Services -> Credentials). Uses only the Python standard library.
+With no arguments, refreshes every lab in PLAYLISTS; otherwise only the
+named labs. Requires a YouTube Data API v3 key
+(console.cloud.google.com -> APIs & Services -> Credentials). Uses only
+the Python standard library.
 """
 import json
 import os
@@ -15,9 +17,27 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-PLAYLIST_ID = "PLmWCw1CzcFilPJdvw6scjHjbBripZWFps"
-OUT_PATH = Path(__file__).resolve().parent.parent / "data" / "anthropic-videos.json"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 API_BASE = "https://www.googleapis.com/youtube/v3"
+
+PLAYLISTS = {
+    "anthropic": {
+        "playlistId": "PLmWCw1CzcFilPJdvw6scjHjbBripZWFps",
+        "tag": "Code with Claude",
+    },
+    "openai": {
+        "playlistId": "PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o",
+        "tag": "DevDay 2025",
+    },
+    "google": {
+        "playlistId": "PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc",
+        "tag": "Gemini for Developers",
+    },
+    "meta": {
+        "playlistId": "PLb0IAmt7-GS3JHFIJ0mQVsPJeDawImtf-",
+        "tag": "LlamaCon 2025",
+    },
+}
 
 ISO8601_DURATION_RE = re.compile(
     r"P(?:\d+D)?T(?:(?P<h>\d+)H)?(?:(?P<m>\d+)M)?(?:(?P<s>\d+)S)?"
@@ -43,13 +63,13 @@ def parse_duration(iso):
     return total, label
 
 
-def fetch_playlist_video_ids(api_key):
+def fetch_playlist_video_ids(playlist_id, api_key):
     ids = []
     page_token = None
     while True:
         params = {
             "part": "contentDetails",
-            "playlistId": PLAYLIST_ID,
+            "playlistId": playlist_id,
             "maxResults": 50,
         }
         if page_token:
@@ -77,13 +97,10 @@ def fetch_video_details(video_ids, api_key):
     return details
 
 
-def main():
-    api_key = os.environ.get("YOUTUBE_API_KEY")
-    if not api_key:
-        print("Set YOUTUBE_API_KEY in your environment first.", file=sys.stderr)
-        sys.exit(1)
-
-    video_ids = fetch_playlist_video_ids(api_key)
+def refresh_lab(lab, cfg, api_key):
+    playlist_id = cfg["playlistId"]
+    out_path = DATA_DIR / f"{lab}-videos.json"
+    video_ids = fetch_playlist_video_ids(playlist_id, api_key)
     details = fetch_video_details(video_ids, api_key)
 
     items = []
@@ -107,21 +124,41 @@ def main():
                 "id": vid,
                 "title": snippet["title"],
                 "desc": snippet.get("description", "").split("\n")[0][:220],
-                "author": snippet.get("channelTitle", "Claude"),
+                "author": snippet.get("channelTitle", ""),
                 "date": snippet["publishedAt"][:10],
                 "views": int(stats.get("viewCount", 0)),
                 "durationSeconds": duration_seconds,
                 "duration": duration_label,
                 "order": index,
-                "tags": ["Code with Claude"],
+                "tags": [cfg["tag"]],
                 "thumbnail": thumbnail,
-                "url": f"https://www.youtube.com/watch?v={vid}&list={PLAYLIST_ID}&index={index}",
+                "url": f"https://www.youtube.com/watch?v={vid}&list={playlist_id}&index={index}",
             }
         )
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n")
-    print(f"Wrote {len(items)} videos to {OUT_PATH}")
+    if not items:
+        print(f"{lab}: playlist returned no videos; leaving {out_path} untouched.", file=sys.stderr)
+        return False
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n")
+    print(f"Wrote {len(items)} videos to {out_path}")
+    return True
+
+
+def main():
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        print("Set YOUTUBE_API_KEY in your environment first.", file=sys.stderr)
+        sys.exit(1)
+
+    labs = sys.argv[1:] or list(PLAYLISTS)
+    unknown = [lab for lab in labs if lab not in PLAYLISTS]
+    if unknown:
+        print(f"Unknown lab(s): {', '.join(unknown)}. Known: {', '.join(PLAYLISTS)}", file=sys.stderr)
+        sys.exit(1)
+
+    ok = all([refresh_lab(lab, PLAYLISTS[lab], api_key) for lab in labs])
+    sys.exit(0 if ok else 1)
 
 
 if __name__ == "__main__":

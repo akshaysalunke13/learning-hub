@@ -1,0 +1,366 @@
+[
+  {
+    "type": "article",
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "desc": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+  },
+  {
+    "type": "article",
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "desc": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+  },
+  {
+    "type": "article",
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "desc": "Details about the OpenAI Bio Bounty program",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/bio-bug-bounty"
+  },
+  {
+    "type": "article",
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "desc": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/gpt-5-6"
+  },
+  {
+    "type": "article",
+    "title": "Our approach to government and national security partnerships",
+    "desc": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/government-national-security-partnerships"
+  },
+  {
+    "type": "article",
+    "title": "Separating signal from noise in coding evaluations",
+    "desc": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
+  },
+  {
+    "type": "article",
+    "title": "Helping K–12 educators build practical AI skills",
+    "desc": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/k-12-educators-practical-skills"
+  },
+  {
+    "type": "article",
+    "title": "Introducing GPT-Live",
+    "desc": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-gpt-live"
+  },
+  {
+    "type": "article",
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "desc": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-07",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/mufg"
+  },
+  {
+    "type": "article",
+    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "desc": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-07",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/australian-payments-plus"
+  },
+  {
+    "type": "article",
+    "title": "How ChatGPT adoption has expanded",
+    "desc": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
+  },
+  {
+    "type": "article",
+    "title": "Introducing GeneBench-Pro",
+    "desc": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-genebench-pro"
+  },
+  {
+    "type": "article",
+    "title": "Core dump epidemiology: fixing an 18-year-old bug",
+    "desc": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+  },
+  {
+    "type": "article",
+    "title": "Inside Genebench-Pro",
+    "desc": "",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/genebench-pro/case-studies"
+  },
+  {
+    "type": "article",
+    "title": "Mapping Europe’s AI Workforce Opportunity",
+    "desc": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-29",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
+  },
+  {
+    "type": "article",
+    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+    "desc": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/hp-frontier-partnership"
+  },
+  {
+    "type": "article",
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "desc": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-26",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol"
+  },
+  {
+    "type": "article",
+    "title": "How agents are transforming work",
+    "desc": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-25",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/how-agents-are-transforming-work"
+  },
+  {
+    "type": "article",
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "desc": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-24",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+  },
+  {
+    "type": "article",
+    "title": "Helping build shared standards for advanced AI",
+    "desc": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-23",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
+  },
+  {
+    "type": "article",
+    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "desc": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-23",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/gpt-5-immunology-mystery"
+  },
+  {
+    "type": "article",
+    "title": "How Omio is building the future of conversational travel",
+    "desc": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-23",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/omio"
+  },
+  {
+    "type": "article",
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "desc": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/patch-the-planet"
+  },
+  {
+    "type": "article",
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "desc": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/daybreak-securing-the-world"
+  },
+  {
+    "type": "article",
+    "title": "Codex-maxxing for long-running work",
+    "desc": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/codex-maxxing-long-running-work"
+  },
+  {
+    "type": "article",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "desc": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-21",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+  },
+  {
+    "type": "article",
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "desc": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-18",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls"
+  },
+  {
+    "type": "article",
+    "title": "Improving health intelligence in ChatGPT",
+    "desc": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-18",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
+  }
+]

@@ -16,17 +16,27 @@ Ported from a `.dc.html` design file (claude.ai/design project
   custom properties on `<html>` — see `applyTheme()`.
 - `scripts/fetch_playlist.py` — stdlib-only Python script that calls
   the YouTube Data API (`playlistItems.list` + `videos.list`) and
-  regenerates `data/anthropic-videos.json`. Requires `YOUTUBE_API_KEY`
-  in the environment; never commit a key.
+  regenerates `data/<lab>-videos.json` for every lab in its `PLAYLISTS`
+  config (or only the labs named as CLI args). Requires
+  `YOUTUBE_API_KEY` in the environment; never commit a key.
 - `scripts/fetch_articles.py` — stdlib-only script that regenerates
   `data/anthropic-articles.json` from the engineering blog index (a
   Next.js page; posts are parsed out of the embedded RSC
   `__next_f.push` payloads, not the markup). No key needed. It exits
   non-zero without writing if the fetch fails or parses to nothing.
+- `scripts/fetch_articles_{openai,google,meta}.py` — same pattern and
+  safety guarantees, one per lab, all RSS-based (OpenAI News feed;
+  Google for Developers Blog feed, keyword-filtered to AI/Gemini
+  topics with per-post pages fetched for exact dates; Engineering at
+  Meta's AI Research category feed — `ai.meta.com/blog` was
+  unreachable from the dev environment, so the Meta tab transparently
+  uses the engineering blog instead). These feeds provide real
+  per-post summaries, so unlike the Anthropic file their `desc` fields
+  are populated.
 - `.github/workflows/` — `deploy-pages.yml` (GitHub Pages deploy on
   push to `main`; Pages source must be set to "GitHub Actions") and
-  `refresh-data.yml` (weekly cron + manual dispatch: runs both fetch
-  scripts and commits the `data/` diff; the playlist step is skipped
+  `refresh-data.yml` (weekly cron + manual dispatch: runs the playlist
+  script and all article scripts, then commits the `data/` diff; the playlist step is skipped
   unless the `YOUTUBE_API_KEY` repo secret is set — note the secrets
   context isn't available in step-level `if:`, hence the job-level
   `HAS_YOUTUBE_KEY` env flag).
@@ -45,13 +55,19 @@ Ported from a `.dc.html` design file (claude.ai/design project
 
 ## Data model
 
-The Anthropic tab is the only one backed by real data, loaded
-client-side via `fetch()` of the two JSON files above
-(`loadAnthropicContent()` in `app.js`) — not hardcoded, so a page
-reload always reflects whatever's currently in `data/`. The OpenAI,
-Google, and Meta tabs are still the original fictional "coming soon"
-placeholder content from the source design — do not treat their
-authors/titles/stats as real.
+All four tabs are backed by real data, loaded client-side via
+`fetch()` of `data/<lab>-videos.json` + `data/<lab>-articles.json`
+(`loadLabContent()` in `app.js`) — not hardcoded, so a page reload
+always reflects whatever's currently in `data/`. Sources per lab:
+Anthropic = Code with Claude 2026 playlist + engineering blog;
+OpenAI = DevDay 2025 playlist + OpenAI News RSS; Google = "Gemini for
+Developers" playlist + Google for Developers Blog RSS; Meta =
+LlamaCon 2025 playlist + Engineering at Meta AI Research RSS. The
+original fictional placeholder content is gone. The non-Anthropic
+video snapshots were bootstrapped without an API key by parsing
+public YouTube page metadata (`ytInitialData` /
+`ytInitialPlayerResponse`); ongoing refresh uses the Data API via
+`fetch_playlist.py`, which covers all four playlists.
 
 ## Running locally
 

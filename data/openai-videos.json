@@ -1,0 +1,308 @@
+[
+  {
+    "type": "video",
+    "id": "hS1YqcewH0c",
+    "title": "OpenAI DevDay 2025: Opening Keynote with Sam Altman",
+    "desc": "Sam Altman kicks off DevDay 2025 with a keynote to explore ideas that will challenge how you think about building. Join us for announcements, live demos, and a vision of how developers are reshaping the future with AI.",
+    "author": "OpenAI",
+    "date": "2025-10-06",
+    "views": 784624,
+    "durationSeconds": 3159,
+    "duration": "52:39",
+    "order": 1,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/hS1YqcewH0c/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=hS1YqcewH0c&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=1"
+  },
+  {
+    "type": "video",
+    "id": "r1R3RDPvPeg",
+    "title": "Developer State Of The Union",
+    "desc": "The developer experience is being rewritten with AI. The Developer State of the Union will explore how Codex, gpt-oss, and our API open up powerful ways to build, experiment, and scale. We’ll share the latest updates, de",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 22543,
+    "durationSeconds": 3213,
+    "duration": "53:33",
+    "order": 2,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/r1R3RDPvPeg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=r1R3RDPvPeg&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=2"
+  },
+  {
+    "type": "video",
+    "id": "7cKbPLzNYws",
+    "title": "A Conversation with Sam and Jony",
+    "desc": "Join Sam Altman and Jony Ive for a wide-ranging conversation about the craft of building in the age of AI. Together, they will explore the importance of strong working relationships, the design process, and what it means",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 67854,
+    "durationSeconds": 1722,
+    "duration": "28:42",
+    "order": 3,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/7cKbPLzNYws/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=7cKbPLzNYws&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=3"
+  },
+  {
+    "type": "video",
+    "id": "EDqQtysycT4",
+    "title": "Built for SF by SF: AI Solutions Helping Our City Thrive",
+    "desc": "No city embraces the future like San Francisco. Get inspired by local developers using AI to tackle real challenges: making SF services work, improving housing options, and strengthening community.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 8019,
+    "durationSeconds": 1576,
+    "duration": "26:16",
+    "order": 4,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/EDqQtysycT4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=EDqQtysycT4&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=4"
+  },
+  {
+    "type": "video",
+    "id": "1HL2YHRj270",
+    "title": "Building with Open Models",
+    "desc": "Go beyond out-of-the-box models with gpt-oss, OpenAI's newest open model series. Discover how gpt-oss lets you adapt, extend, and fine-tune to your needs while combining seamlessly with GPT-5 for flexible, high-impact bu",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 10366,
+    "durationSeconds": 1358,
+    "duration": "22:38",
+    "order": 5,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/1HL2YHRj270/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1HL2YHRj270&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=5"
+  },
+  {
+    "type": "video",
+    "id": "70ush8Vknx8",
+    "title": "Sora, ImageGen, and Codex: The Next Wave of Creative Production",
+    "desc": "AI is changing how quickly creative ideas can become reality. In this session, we’ll walk through how we built a custom creative tool for film, media, and brand campaign workflows. We’ll share lessons from rapid prototyp",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 41440,
+    "durationSeconds": 1355,
+    "duration": "22:35",
+    "order": 6,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/70ush8Vknx8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=70ush8Vknx8&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=6"
+  },
+  {
+    "type": "video",
+    "id": "WrANK9oFfHw",
+    "title": "AMA: Scaling AI Applications into the Enterprise",
+    "desc": "Join a live AMA with Decagon & Clay founders and an Andreessen Horowitz investor on cracking enterprise AI adoption—why many enterprise AI pilots fail, what founders get wrong, and how they scaled to become unicorns.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 5007,
+    "durationSeconds": 1630,
+    "duration": "27:10",
+    "order": 7,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/WrANK9oFfHw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=WrANK9oFfHw&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=7"
+  },
+  {
+    "type": "video",
+    "id": "ER9Hqly28Qw",
+    "title": "Model Behavior: The Science of AI Style",
+    "desc": "Why does ChatGPT sound the way it does? Go behind the scenes to see how the style a model emerges, the trade-offs researchers weigh, and what the future of tone and voice in human-AI interaction could look like.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 4440,
+    "durationSeconds": 1041,
+    "duration": "17:21",
+    "order": 8,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/ER9Hqly28Qw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=ER9Hqly28Qw&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=8"
+  },
+  {
+    "type": "video",
+    "id": "TK9MN22q6E0",
+    "title": "Measuring Agents With Interactive Evaluations",
+    "desc": "Agents explore, plan, and reliably execute across diverse, long-horizon tasks—challenges that static benchmarks can't measure.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 4748,
+    "durationSeconds": 1265,
+    "duration": "21:05",
+    "order": 9,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/TK9MN22q6E0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=TK9MN22q6E0&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=9"
+  },
+  {
+    "type": "video",
+    "id": "Gr41tYOzE20",
+    "title": "Shipping with Codex",
+    "desc": "\"Hear how OpenAI engineers use Codex to rethink how code gets written, refactored, and merged.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 50961,
+    "durationSeconds": 1734,
+    "duration": "28:54",
+    "order": 10,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/Gr41tYOzE20/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Gr41tYOzE20&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=10"
+  },
+  {
+    "type": "video",
+    "id": "44eFf-tRiSg",
+    "title": "Intro to Agent Builder",
+    "desc": "Christina Huang from OpenAI guides you through Agent Builder—a new visual tool to create agentic workflows.",
+    "author": "OpenAI",
+    "date": "2025-10-06",
+    "views": 1714751,
+    "durationSeconds": 330,
+    "duration": "5:30",
+    "order": 11,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/44eFf-tRiSg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=44eFf-tRiSg&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=11"
+  },
+  {
+    "type": "video",
+    "id": "-l0OqapibAA",
+    "title": "Live Demo Showcase: Tools That 10x Your Codebase",
+    "desc": "The best dev teams scale impact, not headcount. In this session, founders from Charlie Labs, Warp, CodeRabbit, and Jam will demo tools that speed up shipping, streamline code reviews, and keep your codebase clean—turning",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 13027,
+    "durationSeconds": 1805,
+    "duration": "30:05",
+    "order": 12,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/-l0OqapibAA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=-l0OqapibAA&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=12"
+  },
+  {
+    "type": "video",
+    "id": "YEaKXjHENyQ",
+    "title": "Evals in Action: From Frontier Research to Production Applications",
+    "desc": "How do you measure progress when you're operating at the frontier? Step inside the evolving world of AI evaluation, where benchmarks are being redefined to capture reasoning, reliability, and model progress in real-world",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 12471,
+    "durationSeconds": 1297,
+    "duration": "21:37",
+    "order": 13,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/YEaKXjHENyQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=YEaKXjHENyQ&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=13"
+  },
+  {
+    "type": "video",
+    "id": "nKuXMDCtyQI",
+    "title": "OpenAI on OpenAI: Applying AI to Our Own Workflows",
+    "desc": "Ever wonder how OpenAI is using our own technology? Discover how we build reliable agents for sales, support, finance, and data, then take home a framework for spotting and scaling high-leverage use cases.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 12700,
+    "durationSeconds": 1585,
+    "duration": "26:25",
+    "order": 14,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/nKuXMDCtyQI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=nKuXMDCtyQI&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=14"
+  },
+  {
+    "type": "video",
+    "id": "DwGNK1DUFsM",
+    "title": "AgentKit Demo",
+    "desc": "Follow along as Christina Huang builds and embeds an AI agent powered by AgentKit directly into the OpenAI Dev Day website in under 8 minutes.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 52090,
+    "durationSeconds": 564,
+    "duration": "9:24",
+    "order": 15,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/DwGNK1DUFsM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=DwGNK1DUFsM&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=15"
+  },
+  {
+    "type": "video",
+    "id": "KplSDxYv9xU",
+    "title": "Orchestrating Agents at Scale",
+    "desc": "Click, connect, create. Learn how to quickly design and deploy enterprise-grade agents with a new suite of agentic platform tools.",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 18453,
+    "durationSeconds": 1235,
+    "duration": "20:35",
+    "order": 16,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/KplSDxYv9xU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=KplSDxYv9xU&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=16"
+  },
+  {
+    "type": "video",
+    "id": "3KAI__5dUn0",
+    "title": "Context Engineering & Coding Agents with Cursor",
+    "desc": "Cursor has grown from next action prediction to fully autonomous coding agents. Learn how they’ve built their agent harness and tools, approached context engineering, and enabled support for running many agents in parall",
+    "author": "OpenAI",
+    "date": "2025-10-08",
+    "views": 41072,
+    "durationSeconds": 1123,
+    "duration": "18:43",
+    "order": 17,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/3KAI__5dUn0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=3KAI__5dUn0&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=17"
+  },
+  {
+    "type": "video",
+    "id": "QIdUllqmuls",
+    "title": "Live from DevDay — the OpenAI Podcast Ep. 7",
+    "desc": "The OpenAI Podcast is live for the first time. Host Andrew Mayne sits down with startups Cursor, Abridge, SchoolAI, and Jam.dev—each reimagining how AI can transform their industries. From healthcare and education to cod",
+    "author": "OpenAI",
+    "date": "2025-10-06",
+    "views": 43345,
+    "durationSeconds": 3675,
+    "duration": "1:01:15",
+    "order": 18,
+    "tags": [
+      "DevDay 2025"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/QIdUllqmuls/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=QIdUllqmuls&list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&index=18"
+  }
+]

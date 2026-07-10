@@ -36,14 +36,14 @@ jobs:
         if: ${{ env.HAS_YOUTUBE_KEY != 'true' }}
         run: echo "YOUTUBE_API_KEY secret not set; skipping playlist refresh."
 
-      - name: Fetch Anthropic articles data
+      - name: Fetch articles data (all labs)
         continue-on-error: true
         run: |
-          if [ -f scripts/fetch_articles.py ]; then
-            python3 scripts/fetch_articles.py
-          else
-            echo "scripts/fetch_articles.py not found yet; skipping."
-          fi
+          status=0
+          for script in scripts/fetch_articles*.py; do
+            python3 "$script" || { echo "$script failed; continuing."; status=1; }
+          done
+          exit $status
 
       - name: Commit and push data changes
         run: |

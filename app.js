@@ -1,8 +1,5 @@
 "use strict";
 
-const ANTHROPIC_VIDEOS_URL = "data/anthropic-videos.json";
-const ANTHROPIC_ARTICLES_URL = "data/anthropic-articles.json";
-
 const LABS = {
   anthropic: {
     name: "Anthropic", tag: "Claude", mono: "A", wordmark: "Code with Claude", badge: "LIVE ARCHIVE",
@@ -16,50 +13,37 @@ const LABS = {
     loadError: false
   },
   openai: {
-    name: "OpenAI", tag: "GPT", mono: "O", wordmark: "Build with OpenAI", badge: "PREVIEW",
+    name: "OpenAI", tag: "GPT", mono: "O", wordmark: "Build with OpenAI", badge: "LIVE ARCHIVE",
     accent: "#19c37d", accentInk: "#04120c", accentSoft: "rgba(25,195,125,.15)",
     bg: "#0b0d0c", panel: "#15181a", border: "rgba(255,255,255,.08)", rowLine: "rgba(255,255,255,.07)",
     chip: "rgba(255,255,255,.06)", ink: "#ececec", muted: "rgba(236,236,236,.55)", faint: "rgba(236,236,236,.42)",
     headFont: "'Manrope',sans-serif", thumbA: "#1c2320", thumbB: "#232b27",
-    tagline: "Build on the OpenAI platform.", sub: "Coming soon — a preview of how each lab gets its own space.",
-    content: [
-      { type: "video", title: "The Realtime API: voice agents end to end", desc: "Stream audio in and out, interrupt naturally, and call tools mid-conversation.", author: "Platform Team", date: "2025-05-11", views: 51200, duration: "33:20", tags: ["Realtime", "Voice"] },
-      { type: "video", title: "Structured outputs and JSON mode", desc: "Guarantee schema-valid responses and wire them straight into your app.", author: "Platform Team", date: "2025-04-02", views: 40120, duration: "21:48", tags: ["Structured"] },
-      { type: "video", title: "Function calling deep dive", desc: "Design tools the model actually uses well, and handle multi-step calls cleanly.", author: "Platform Team", date: "2025-03-19", views: 72340, duration: "29:55", tags: ["Tools"] },
-      { type: "video", title: "Fine-tuning for your domain", desc: "When to fine-tune versus prompt, and how to build a dataset that pays off.", author: "Platform Team", date: "2025-02-08", views: 33890, duration: "26:12", tags: ["Fine-tuning"] },
-      { type: "article", title: "Planning for AGI and beyond", desc: "How a gradual transition, iterative deployment, and broad benefit should guide the path to AGI.", author: "Sam Altman", role: "CEO", date: "2025-02-24", reads: 430000, minutes: 15, tags: ["Essay"] },
-      { type: "article", title: "Reliable tool calling at scale", desc: "Field notes on schema design, retries, and evals that keep tool-using apps dependable.", author: "Platform Team", role: "Engineering", date: "2025-03-30", reads: 88000, minutes: 10, tags: ["Tools"] }
-    ]
+    tagline: "The DevDay library.", sub: "Every session from DevDay 2025, plus the latest OpenAI news.",
+    content: [],
+    loaded: false,
+    loadError: false
   },
   google: {
-    name: "Google DeepMind", tag: "Gemini", mono: "G", wordmark: "Build with Gemini", badge: "PREVIEW",
+    name: "Google DeepMind", tag: "Gemini", mono: "G", wordmark: "Build with Gemini", badge: "LIVE ARCHIVE",
     accent: "#6ea0ff", accentInk: "#08101f", accentSoft: "rgba(110,160,255,.16)",
     bg: "#0d0f14", panel: "#171a21", border: "rgba(255,255,255,.08)", rowLine: "rgba(255,255,255,.07)",
     chip: "rgba(255,255,255,.06)", ink: "#eceef2", muted: "rgba(236,238,242,.56)", faint: "rgba(236,238,242,.43)",
     headFont: "'Outfit',sans-serif", thumbA: "#1e2430", thumbB: "#252c3a",
-    tagline: "Learn to build with Gemini.", sub: "Coming soon — a preview of how each lab gets its own space.",
-    content: [
-      { type: "video", title: "Long-context prompting with Gemini", desc: "Put a whole codebase or book in the window — and get useful answers back.", author: "DeepMind", date: "2025-05-16", views: 44300, duration: "27:40", tags: ["Long context"] },
-      { type: "video", title: "Multimodal prompting: images, audio, video", desc: "One model, many inputs. Ground answers in what the model can see and hear.", author: "DeepMind", date: "2025-04-22", views: 38700, duration: "30:15", tags: ["Multimodal"] },
-      { type: "video", title: "Function calling with the Gemini API", desc: "Connect Gemini to your tools and let it orchestrate real actions.", author: "DeepMind", date: "2025-03-05", views: 29500, duration: "22:33", tags: ["Tools"] },
-      { type: "article", title: "A new era for AI research", desc: "Why the next breakthroughs will come from combining large models with search, planning, and science.", author: "Demis Hassabis", role: "CEO", date: "2025-01-28", reads: 310000, minutes: 18, tags: ["Essay"] },
-      { type: "article", title: "Scaling long-context models", desc: "The engineering behind million-token windows — memory, attention, and retrieval trade-offs.", author: "DeepMind Research", role: "Engineering", date: "2025-03-08", reads: 76000, minutes: 11, tags: ["Long context"] }
-    ]
+    tagline: "Learn to build with Gemini.", sub: "Gemini for Developers sessions, plus posts from Google's developer blog.",
+    content: [],
+    loaded: false,
+    loadError: false
   },
   meta: {
-    name: "Meta AI", tag: "Llama", mono: "M", wordmark: "Build with Llama", badge: "PREVIEW",
+    name: "Meta AI", tag: "Llama", mono: "M", wordmark: "Build with Llama", badge: "LIVE ARCHIVE",
     accent: "#3b9bff", accentInk: "#04101f", accentSoft: "rgba(59,155,255,.16)",
     bg: "#0a0c12", panel: "#14171f", border: "rgba(255,255,255,.08)", rowLine: "rgba(255,255,255,.07)",
     chip: "rgba(255,255,255,.06)", ink: "#eceef1", muted: "rgba(236,238,241,.55)", faint: "rgba(236,238,241,.42)",
     headFont: "'Sora',sans-serif", thumbA: "#1b2130", thumbB: "#222a3b",
-    tagline: "Ship with Llama, open by default.", sub: "Coming soon — a preview of how each lab gets its own space.",
-    content: [
-      { type: "video", title: "Fine-tuning Llama 3 for your product", desc: "A practical path from base weights to a model that fits your domain.", author: "Meta AI", date: "2025-05-09", views: 39800, duration: "34:02", tags: ["Fine-tuning"] },
-      { type: "video", title: "Running Llama locally with Ollama", desc: "Get an open model running on your laptop and talking to your code in minutes.", author: "Meta AI", date: "2025-04-01", views: 58400, duration: "18:20", tags: ["Local", "Ollama"] },
-      { type: "video", title: "Building RAG with Llama", desc: "Retrieval that grounds answers in your own documents — the whole pipeline.", author: "Meta AI", date: "2025-03-11", views: 42600, duration: "28:47", tags: ["RAG"] },
-      { type: "article", title: "Open source AI is the path forward", desc: "The case for open models — why they are safer, cheaper, and better for the whole ecosystem.", author: "Mark Zuckerberg", role: "CEO", date: "2025-02-05", reads: 640000, minutes: 14, tags: ["Essay"] },
-      { type: "article", title: "Serving Llama efficiently", desc: "Quantization, batching, and KV-cache tricks that make open models cheap to run in production.", author: "Meta AI", role: "Engineering", date: "2025-03-22", reads: 92000, minutes: 9, tags: ["Inference"] }
-    ]
+    tagline: "Ship with Llama, open by default.", sub: "Talks from LlamaCon 2025, plus Meta's AI Research engineering blog.",
+    content: [],
+    loaded: false,
+    loadError: false
   }
 };
 
@@ -160,8 +144,8 @@ function renderList(t, items) {
     const kindWord = state.kind === "video" ? "videos" : state.kind === "article" ? "articles" : "items";
     const q = state.query.trim();
     const empty = el("div", "empty-state");
-    const notLoaded = state.lab === "anthropic" && !LABS.anthropic.loaded;
-    const loadError = state.lab === "anthropic" && LABS.anthropic.loaded && LABS.anthropic.loadError;
+    const notLoaded = !t.loaded;
+    const loadError = t.loaded && t.loadError;
     const title = el("div", "empty-title", {
       textContent: notLoaded ? "Loading…" : loadError ? "Couldn't load content" : q ? `No ${kindWord} match "${q}"` : `No ${kindWord} yet`
     });
@@ -289,7 +273,7 @@ window.addEventListener("hashchange", () => {
   if (id !== state.lab) setLab(id);
 });
 
-async function loadAnthropicContent() {
+async function loadLabContent(id) {
   const load = async url => {
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(`${url}: ${res.status} ${res.statusText}`);
@@ -297,14 +281,15 @@ async function loadAnthropicContent() {
   };
   let videosFailed = false, articlesFailed = false;
   const [videos, articles] = await Promise.all([
-    load(ANTHROPIC_VIDEOS_URL).catch(err => { console.error(err); videosFailed = true; return []; }),
-    load(ANTHROPIC_ARTICLES_URL).catch(err => { console.error(err); articlesFailed = true; return []; })
+    load(`data/${id}-videos.json`).catch(err => { console.error(err); videosFailed = true; return []; }),
+    load(`data/${id}-articles.json`).catch(err => { console.error(err); articlesFailed = true; return []; })
   ]);
-  LABS.anthropic.content = [...videos, ...articles];
-  LABS.anthropic.loaded = true;
-  LABS.anthropic.loadError = videosFailed && articlesFailed;
-  if (state.lab === "anthropic") render();
+  const L = LABS[id];
+  L.content = [...videos, ...articles];
+  L.loaded = true;
+  L.loadError = videosFailed && articlesFailed;
+  if (state.lab === id) render();
 }
 
 render();
-loadAnthropicContent();
+ORDER.forEach(loadLabContent);
