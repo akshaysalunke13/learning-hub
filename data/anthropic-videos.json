@@ -1,0 +1,631 @@
+[
+  {
+    "type": "video",
+    "id": "6amLO7I9xdg",
+    "title": "Code with Claude London 2026: Opening Keynote",
+    "desc": "Get the latest updates from Anthropic's engineering and product leaders at the Code with Claude 2026 opening keynote in London.",
+    "author": "Claude",
+    "date": "2026-05-19",
+    "views": 64524,
+    "durationSeconds": 2787,
+    "duration": "46:27",
+    "order": 1,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/6amLO7I9xdg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=6amLO7I9xdg&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=1"
+  },
+  {
+    "type": "video",
+    "id": "tuY2ChJIx48",
+    "title": "Beyond the basics with Claude Code",
+    "desc": "The mechanics that separate basic Claude Code use from real leverage: CLAUDE.md done well, wiring tools in with MCP, packaging team knowledge as skills, and using auto mode safely.",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 75605,
+    "durationSeconds": 2840,
+    "duration": "47:20",
+    "order": 2,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/tuY2ChJIx48/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=tuY2ChJIx48&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=2"
+  },
+  {
+    "type": "video",
+    "id": "IA5LWIGqnyM",
+    "title": "Running an AI-native engineering org",
+    "desc": "When agentic coding goes from individual tool to org-wide default, the tool isn't the hard part…your processes are. Fiona Fung, Leader for Engineering and Product for Claude Code and Cowork, walks through how the bottlen",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 24220,
+    "durationSeconds": 1598,
+    "duration": "26:38",
+    "order": 3,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/IA5LWIGqnyM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IA5LWIGqnyM&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=3"
+  },
+  {
+    "type": "video",
+    "id": "QIriO1-vHYw",
+    "title": "Getting more out of the Claude Platform",
+    "desc": "Cut cost, manage context, boost intelligence. In this session, we'll show you how to put our latest platform capabilities to work. Through live demos you'll see what great prompt caching looks like, learn to keep context",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 6481,
+    "durationSeconds": 1601,
+    "duration": "26:41",
+    "order": 4,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/QIriO1-vHYw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=QIriO1-vHYw&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=4"
+  },
+  {
+    "type": "video",
+    "id": "G2B0YWuJUgI",
+    "title": "The prompting playbook",
+    "desc": "How to apply core prompting principles to agentic systems that plan, act, and adapt.",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 94479,
+    "durationSeconds": 2029,
+    "duration": "33:49",
+    "order": 5,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/G2B0YWuJUgI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=G2B0YWuJUgI&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=5"
+  },
+  {
+    "type": "video",
+    "id": "DNRddIEoH3c",
+    "title": "The capability curve",
+    "desc": "Frontier models are getting more capable, fast. Where the curve is going, and what it means for developers building on Claude.",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 6149,
+    "durationSeconds": 1586,
+    "duration": "26:26",
+    "order": 6,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/DNRddIEoH3c/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=DNRddIEoH3c&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=6"
+  },
+  {
+    "type": "video",
+    "id": "Uvl-tRga98g",
+    "title": "Designing with Claude: From prompt to production",
+    "desc": "Claude Design lets you describe what you want in plain language and get production-quality outputs. Learn how a small team built a design tool that ships in your brand, from prompt to production.",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 107880,
+    "durationSeconds": 1680,
+    "duration": "28:00",
+    "order": 7,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/Uvl-tRga98g/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Uvl-tRga98g&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=7"
+  },
+  {
+    "type": "video",
+    "id": "l8fxVYIP4HQ",
+    "title": "Building with Claude on Google Cloud",
+    "desc": "A live build from zero to deployed in thirty minutes. We'll build a feedback app spanning five roles and the full software lifecycle, using Claude and Google Cloud alongside subagents, MCP servers, and custom skills. You",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 12161,
+    "durationSeconds": 1478,
+    "duration": "24:38",
+    "order": 8,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/l8fxVYIP4HQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=l8fxVYIP4HQ&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=8"
+  },
+  {
+    "type": "video",
+    "id": "EOg4gY0Yln0",
+    "title": "Building signals that trade themselves",
+    "desc": "There are trading signals in production at Man Group right now — running real capital — that were researched, backtested, and proposed by AI. Tushara Fernando shares what made that possible inside a regulated investment ",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 37108,
+    "durationSeconds": 1245,
+    "duration": "20:45",
+    "order": 9,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/EOg4gY0Yln0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=EOg4gY0Yln0&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=9"
+  },
+  {
+    "type": "video",
+    "id": "P0uMXS6emHA",
+    "title": "Picking the right model",
+    "desc": "Hands-on techniques for testing and comparing models against your use case, so you can make a confident call each time a new release ships.",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 6429,
+    "durationSeconds": 1900,
+    "duration": "31:40",
+    "order": 10,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/P0uMXS6emHA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=P0uMXS6emHA&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=10"
+  },
+  {
+    "type": "video",
+    "id": "IGo225tfF2I",
+    "title": "Memory and dreaming for self learning agents",
+    "desc": "How memory and dreaming turn Claude Managed Agents into self-learning systems. This session walks through design considerations for memory architectures and how dreaming verifies and enriches memory between sessions.",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 9574,
+    "durationSeconds": 1294,
+    "duration": "21:34",
+    "order": 11,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/IGo225tfF2I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IGo225tfF2I&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=11"
+  },
+  {
+    "type": "video",
+    "id": "nho1YAEPuwA",
+    "title": "What legal agents inherit from coding agents: Lessons from Legora",
+    "desc": "Three patterns shaped Legora's legal-AI agent: what they could reuse from coding agents, what they had to translate, and what they had to invent. Hear Staff Software Engineer Jakob Emmerling share how Legora rebuilt docu",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 3077,
+    "durationSeconds": 1723,
+    "duration": "28:43",
+    "order": 12,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/nho1YAEPuwA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=nho1YAEPuwA&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=12"
+  },
+  {
+    "type": "video",
+    "id": "zenIB7XLZxQ",
+    "title": "How to get to production faster with Claude Managed Agents",
+    "desc": "Building agents used to mean spending development cycles on secure infrastructure, state management, permissioning, and reworking your agent loops for every model upgrade. Managed Agents, on the Claude Platform, now hand",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 6940,
+    "durationSeconds": 1744,
+    "duration": "29:04",
+    "order": 13,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/zenIB7XLZxQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=zenIB7XLZxQ&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=13"
+  },
+  {
+    "type": "video",
+    "id": "jWWsLe4Gh5Y",
+    "title": "Build a production-ready agent with Claude Managed Agents",
+    "desc": "A hands-on build session for Claude Managed Agents. You'll deploy a production-ready agent from scratch, then debug and monitor it live in the developer console.",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 14351,
+    "durationSeconds": 1643,
+    "duration": "27:23",
+    "order": 14,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/jWWsLe4Gh5Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=jWWsLe4Gh5Y&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=14"
+  },
+  {
+    "type": "video",
+    "id": "T7KqH7kYnE4",
+    "title": "The thinking lever",
+    "desc": "Adaptive thinking and effort controls give developers a new decision: how much should Claude reason for a given task? This session covers thinking budgets, effort levels, and the cost, latency, and quality tradeoffs invo",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 14617,
+    "durationSeconds": 1278,
+    "duration": "21:18",
+    "order": 15,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/T7KqH7kYnE4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=T7KqH7kYnE4&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=15"
+  },
+  {
+    "type": "video",
+    "id": "mhW-XXnDFSU",
+    "title": "How Lovable vibecodes production software at scale",
+    "desc": "Vibecoding a beautiful, working prototype is easier than ever. Running a platform that non-developers use to ship production software is a different engineering problem. Today, software built on Lovable serves 600M+ mont",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 7490,
+    "durationSeconds": 1871,
+    "duration": "31:11",
+    "order": 16,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/mhW-XXnDFSU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=mhW-XXnDFSU&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=16"
+  },
+  {
+    "type": "video",
+    "id": "XFaeIbL-lvE",
+    "title": "Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero",
+    "desc": "Three of Europe's fastest-scaling tech companies made three different bets on Claude: Delivery Hero built an autonomous agent that now merges 100+ PRs a day, Doctolib governs Claude Code across its entire healthcare engi",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 5885,
+    "durationSeconds": 1751,
+    "duration": "29:11",
+    "order": 17,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/XFaeIbL-lvE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=XFaeIbL-lvE&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=17"
+  },
+  {
+    "type": "video",
+    "id": "VueeyKcquoA",
+    "title": "From one person to 80: Scaling a hypergrowth engineering org with Claude Code",
+    "desc": "Base44 went from one engineer to hyper-growth — getting acquired by Wix, absorbing a wave of new engineers, then shipping faster than any reasonable hiring plan could carry. Claude Code is what kept the team moving throu",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 5809,
+    "durationSeconds": 1439,
+    "duration": "23:59",
+    "order": 18,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/VueeyKcquoA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=VueeyKcquoA&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=18"
+  },
+  {
+    "type": "video",
+    "id": "eSP7PLTXNy8",
+    "title": "Build a proactive agent workflow with Claude Code",
+    "desc": "Routines turn Claude Code into a proactive teammate that reads your repo and opens a PR before you've opened your laptop. You'll see one built end to end, learn the trigger, context, and steering decisions behind any rou",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 219341,
+    "durationSeconds": 1324,
+    "duration": "22:04",
+    "order": 19,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/eSP7PLTXNy8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=eSP7PLTXNy8&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=19"
+  },
+  {
+    "type": "video",
+    "id": "TQd_YQvydVg",
+    "title": "Build AI agents using Claude in Microsoft Foundry",
+    "desc": "In this hands-on workshop, you'll provision Claude in Microsoft Foundry, connect it to a real MCP server with Claude Code, and build a working agent. You'll leave with running code and a cupcake to prove it.",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 12911,
+    "durationSeconds": 2056,
+    "duration": "34:16",
+    "order": 20,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/TQd_YQvydVg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=TQd_YQvydVg&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=20"
+  },
+  {
+    "type": "video",
+    "id": "zFslvuvYifQ",
+    "title": "Coding is no longer the constraint: Scaling devex to teams and agents at Spotify",
+    "desc": "At Spotify, 96% of engineers now code with AI and PR frequency is up 60% — so the constraint has moved from writing code to orchestrating it. Niklas Gustavsson, Chief Architect & VP of Engineering, shares how Spotify bui",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 30863,
+    "durationSeconds": 1657,
+    "duration": "27:37",
+    "order": 21,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/zFslvuvYifQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=zFslvuvYifQ&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=21"
+  },
+  {
+    "type": "video",
+    "id": "5YHIrTYxM3w",
+    "title": "AI with Claude on AWS: From code to orchestration",
+    "desc": "In 45 minutes you'll stand up Claude Code in Amazon Bedrock, teach it your team's conventions with CLAUDE.md, and turn your everyday workflows into reusable agent skills. You'll leave with a working, team-tuned agentic d",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 3365,
+    "durationSeconds": 1182,
+    "duration": "19:42",
+    "order": 22,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/5YHIrTYxM3w/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5YHIrTYxM3w&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=22"
+  },
+  {
+    "type": "video",
+    "id": "wI0ptqCSL0I",
+    "title": "Stop babysitting your agents",
+    "desc": "Stop babysitting your AI and start orchestrating it. A walkthrough of the workflows Claude Code engineers use to get the most out of the agent.",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 56407,
+    "durationSeconds": 2227,
+    "duration": "37:07",
+    "order": 23,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/wI0ptqCSL0I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wI0ptqCSL0I&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=23"
+  },
+  {
+    "type": "video",
+    "id": "sRvUXLquiRg",
+    "title": "What's new in Claude Code",
+    "desc": "A twenty-minute summary of what's new in Claude Code: what shipped, why we built it, and how to get started.",
+    "author": "Claude",
+    "date": "2026-05-20",
+    "views": 60574,
+    "durationSeconds": 1924,
+    "duration": "32:04",
+    "order": 24,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/sRvUXLquiRg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=sRvUXLquiRg&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=24"
+  },
+  {
+    "type": "video",
+    "id": "19HDQ9HppOA",
+    "title": "Ship your first Managed Agent",
+    "desc": "Build and ship a working incident-investigator agent on Anthropic's Managed Agents platform: define an Agent, Environment, and Session, stream events, and wire up custom tools, all in six functions. You'll leave with a r",
+    "author": "Claude",
+    "date": "2026-05-26",
+    "views": 60195,
+    "durationSeconds": 2229,
+    "duration": "37:09",
+    "order": 25,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/19HDQ9HppOA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=19HDQ9HppOA&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=25"
+  },
+  {
+    "type": "video",
+    "id": "mWvtOHlZM-I",
+    "title": "Tool, skill, or subagent? Decomposing an agent that outgrew its prompt",
+    "desc": "When does logic belong in a tool, a skill, or a subagent? You'll learn the decision framework by doing: inherit a 402-line inventory agent, decompose it live on Claude Managed Agents, and run evals after every change to ",
+    "author": "Claude",
+    "date": "2026-05-23",
+    "views": 51736,
+    "durationSeconds": 2706,
+    "duration": "45:06",
+    "order": 26,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/mWvtOHlZM-I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=26"
+  },
+  {
+    "type": "video",
+    "id": "dxqX_6ciVQA",
+    "title": "Agent Battle: Mine the most diamonds in 45 minutes",
+    "desc": "Head-to-head agent build-off on a shared game harness. Build an agent, submit runs, watch scores and a live game feed stream to the leaderboard on the big screen. Can you build the top-performing agent in the room?",
+    "author": "Claude",
+    "date": "2026-05-23",
+    "views": 4033,
+    "durationSeconds": 525,
+    "duration": "8:45",
+    "order": 27,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/dxqX_6ciVQA/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=dxqX_6ciVQA&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=27"
+  },
+  {
+    "type": "video",
+    "id": "v9FTCvkV_a0",
+    "title": "Evals for taste: Hill-climbing a slide-generation agent",
+    "desc": "Built rubric-driven replayable eval system from real user projects giving quality, cost, latency, error, token signals in under 6 hours per model change. Evolved into dev flywheel powered by real user dissatisfaction sig",
+    "author": "Claude",
+    "date": "2026-05-23",
+    "views": 9462,
+    "durationSeconds": 2356,
+    "duration": "39:16",
+    "order": 28,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/v9FTCvkV_a0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=v9FTCvkV_a0&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=28"
+  },
+  {
+    "type": "video",
+    "id": "geUv4CjPpxI",
+    "title": "Agents that remember",
+    "desc": "Every time you close a session, your agent loses everything it learned. In this workshop, you'll wire persistent memory onto a Claude agent and then use Dreaming to batch-consolidate past transcripts into structured reca",
+    "author": "Claude",
+    "date": "2026-05-23",
+    "views": 21880,
+    "durationSeconds": 1722,
+    "duration": "28:42",
+    "order": 29,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/geUv4CjPpxI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=geUv4CjPpxI&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=29"
+  },
+  {
+    "type": "video",
+    "id": "IlqJqcl8ONE",
+    "title": "How we Claude Code",
+    "desc": "See how Anthropic engineers actually use Claude Code day to day. You'll configure a real repo the way we do internally: project context files, custom commands, hooks, and subagents. Then run the same task stock versus tu",
+    "author": "Claude",
+    "date": "2026-05-23",
+    "views": 53382,
+    "durationSeconds": 1903,
+    "duration": "31:43",
+    "order": 30,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/IlqJqcl8ONE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IlqJqcl8ONE&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=30"
+  },
+  {
+    "type": "video",
+    "id": "qOjleN2-50c",
+    "title": "Making agentic workflows trustworthy and verifiable with a custom DSL",
+    "desc": "System design of agentic research assistant built unconventionally: one component outputs plan in custom Turing-incomplete programming language, another interprets it, quiver of models executes concrete tasks. Architectu",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 8386,
+    "durationSeconds": 1779,
+    "duration": "29:39",
+    "order": 31,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/qOjleN2-50c/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=qOjleN2-50c&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=31"
+  },
+  {
+    "type": "video",
+    "id": "tUoO4ucrNc0",
+    "title": "Fighting financial crime with Claude Cowork",
+    "desc": "Leveraging Claude Cowork to optimize high-stakes workflows and fight financial crime. In-house MCPs, MCP gateways, evals, deploying critical workflows in production for analyst teams.",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 3460,
+    "durationSeconds": 1672,
+    "duration": "27:52",
+    "order": 32,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/tUoO4ucrNc0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=tUoO4ucrNc0&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=32"
+  },
+  {
+    "type": "video",
+    "id": "T8N0MED3IJo",
+    "title": "Where code meets court: AI at the legal-technical frontier",
+    "desc": "AI saves lawyers countless hours on research; AI helps developers reason through complex technical systems. Patent law is unique in demanding both simultaneously—researching across millions of documents while comprehendi",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 2162,
+    "durationSeconds": 1936,
+    "duration": "32:16",
+    "order": 33,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/T8N0MED3IJo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=T8N0MED3IJo&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=33"
+  },
+  {
+    "type": "video",
+    "id": "M5uwBawBDpw",
+    "title": "How AirOps chases friction to build AI products with Claude",
+    "desc": "This should update to: Claude solved execution but shipping agents into a specialized professional workflow like content marketing surfaces two harder problems: making agents fit the workflow marketers already run, and e",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 1635,
+    "durationSeconds": 1607,
+    "duration": "26:47",
+    "order": 34,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/M5uwBawBDpw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=M5uwBawBDpw&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=34"
+  },
+  {
+    "type": "video",
+    "id": "A3rmSUp6Dxg",
+    "title": "How Metaview built self-improving prompts for application review",
+    "desc": "At Metaview, we help recruiters sift through thousands of resumes a day. Most evaluation systems set the criteria upfront and rebuild every time preferences change. We built one that learns from every decision recruiters",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 2427,
+    "durationSeconds": 1006,
+    "duration": "16:46",
+    "order": 35,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/A3rmSUp6Dxg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=A3rmSUp6Dxg&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=35"
+  },
+  {
+    "type": "video",
+    "id": "uGroRwlC9y4",
+    "title": "Teaching agents to learn from your team",
+    "desc": "Agent that improves itself daily by treating instructions as code: edited, reviewed, merged like any PR. Writing skills that teach agents how to think (not what to do). Closing feedback loop so team judgment flows back a",
+    "author": "Claude",
+    "date": "2026-05-22",
+    "views": 7262,
+    "durationSeconds": 1709,
+    "duration": "28:29",
+    "order": 36,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/uGroRwlC9y4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=uGroRwlC9y4&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=36"
+  },
+  {
+    "type": "video",
+    "id": "K4-flzsPraE",
+    "title": "Building the best agentic analytics harness: Powered by Claude, built with Claude Code",
+    "desc": "Omni built the best agentic harness for analytics tailored for and powered by Claude models, with 99% of the platform's code written using Claude Code. Cofounder & CTO Chris Merrick shows how they architect their multi-a",
+    "author": "Claude",
+    "date": "2026-05-21",
+    "views": 32992,
+    "durationSeconds": 1606,
+    "duration": "26:46",
+    "order": 37,
+    "tags": [
+      "Code with Claude"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/K4-flzsPraE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=K4-flzsPraE&list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps&index=37"
+  }
+]

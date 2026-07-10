@@ -1,0 +1,327 @@
+[
+  {
+    "type": "article",
+    "title": "How we contain Claude across products",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-05-01",
+    "dateApproximate": true,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+  },
+  {
+    "type": "article",
+    "title": "An update on recent Claude Code quality reports",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-04-23",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+  },
+  {
+    "type": "article",
+    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-04-08",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/managed-agents"
+  },
+  {
+    "type": "article",
+    "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-03-25",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/claude-code-auto-mode"
+  },
+  {
+    "type": "article",
+    "title": "Harness design for long-running application development",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-03-24",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+  },
+  {
+    "type": "article",
+    "title": "Eval awareness in Claude Opus 4.6's BrowseComp performance",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-03-06",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp"
+  },
+  {
+    "type": "article",
+    "title": "Quantifying infrastructure noise in agentic coding evals",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-02-05",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/infrastructure-noise"
+  },
+  {
+    "type": "article",
+    "title": "Building a C compiler with a team of parallel Claudes",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-02-05",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/building-c-compiler"
+  },
+  {
+    "type": "article",
+    "title": "Designing AI-resistant technical evaluations",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-01-21",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations"
+  },
+  {
+    "type": "article",
+    "title": "Demystifying evals for AI agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-01-09",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  },
+  {
+    "type": "article",
+    "title": "Effective harnesses for long-running agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-11-26",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+  },
+  {
+    "type": "article",
+    "title": "Introducing advanced tool use on the Claude Developer Platform",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-11-24",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/advanced-tool-use"
+  },
+  {
+    "type": "article",
+    "title": "Code execution with MCP: Building more efficient agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-11-04",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/code-execution-with-mcp"
+  },
+  {
+    "type": "article",
+    "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-10-20",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/claude-code-sandboxing"
+  },
+  {
+    "type": "article",
+    "title": "Equipping agents for the real world with Agent Skills",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-10-16",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+  },
+  {
+    "type": "article",
+    "title": "Effective context engineering for AI agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+  },
+  {
+    "type": "article",
+    "title": "A postmortem of three recent issues",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-09-17",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues"
+  },
+  {
+    "type": "article",
+    "title": "Writing effective tools for agents — with agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-09-11",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/writing-tools-for-agents"
+  },
+  {
+    "type": "article",
+    "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-06-26",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/desktop-extensions"
+  },
+  {
+    "type": "article",
+    "title": "How we built our multi-agent research system",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-06-13",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/multi-agent-research-system"
+  },
+  {
+    "type": "article",
+    "title": "Claude Code: Best practices for agentic coding",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-04-18",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/claude-code-best-practices"
+  },
+  {
+    "type": "article",
+    "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-03-20",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/claude-think-tool"
+  },
+  {
+    "type": "article",
+    "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2025-01-06",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/swe-bench-sonnet"
+  },
+  {
+    "type": "article",
+    "title": "Building effective agents",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2024-12-19",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/building-effective-agents"
+  },
+  {
+    "type": "article",
+    "title": "Introducing Contextual Retrieval",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2024-09-19",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/contextual-retrieval"
+  }
+]

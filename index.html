@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Code with Claude — Learning Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Talks, deep dives, and essays from the people building frontier AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="lh-scroll" id="root">
+  <div class="wrap">
+
+    <header class="header">
+      <div class="brand">
+        <div class="wordmark" id="wordmark"></div>
+        <div class="badge" id="badge"></div>
+      </div>
+      <nav class="nav">
+        <span class="nav-link">About</span>
+        <span class="nav-cta">Subscribe</span>
+      </nav>
+    </header>
+
+    <div class="row-top">
+      <div class="lab-switcher" id="labSwitcher"></div>
+      <div class="ad-slot">
+        <span class="ad-label">Sponsored</span>
+        <span class="ad-text">Reserved for a partner</span>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="tagline" id="tagline"></div>
+      <div class="sub" id="sub"></div>
+    </div>
+
+    <div class="search-sort">
+      <div class="search-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" class="search-icon"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+        <input id="searchInput" placeholder="Search by title…" autocomplete="off" />
+        <button id="clearBtn" class="clear-btn" hidden>×</button>
+      </div>
+      <div class="sort-group" id="sortGroup"></div>
+    </div>
+
+    <div class="kind-count">
+      <div class="kind-group" id="kindGroup"></div>
+      <div class="count-label" id="countLabel"></div>
+    </div>
+
+    <div class="list" id="list"></div>
+
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
