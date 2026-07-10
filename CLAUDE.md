@@ -18,6 +18,18 @@ Ported from a `.dc.html` design file (claude.ai/design project
   the YouTube Data API (`playlistItems.list` + `videos.list`) and
   regenerates `data/anthropic-videos.json`. Requires `YOUTUBE_API_KEY`
   in the environment; never commit a key.
+- `scripts/fetch_articles.py` — stdlib-only script that regenerates
+  `data/anthropic-articles.json` from the engineering blog index (a
+  Next.js page; posts are parsed out of the embedded RSC
+  `__next_f.push` payloads, not the markup). No key needed. It exits
+  non-zero without writing if the fetch fails or parses to nothing.
+- `.github/workflows/` — `deploy-pages.yml` (GitHub Pages deploy on
+  push to `main`; Pages source must be set to "GitHub Actions") and
+  `refresh-data.yml` (weekly cron + manual dispatch: runs both fetch
+  scripts and commits the `data/` diff; the playlist step is skipped
+  unless the `YOUTUBE_API_KEY` repo secret is set — note the secrets
+  context isn't available in step-level `if:`, hence the job-level
+  `HAS_YOUTUBE_KEY` env flag).
 - `data/anthropic-videos.json` — real talks from the [Code with Claude
   2026, London playlist](https://www.youtube.com/playlist?list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps):
   titles, view counts, durations, publish dates, thumbnails, per-video
@@ -26,8 +38,8 @@ Ported from a `.dc.html` design file (claude.ai/design project
 - `data/anthropic-articles.json` — real posts from Anthropic's
   engineering blog, each linking to its actual URL. The blog index
   page has no per-post descriptions, so none are invented here —
-  titles and dates only. Also a static snapshot; no refresh script
-  exists for this one yet.
+  titles and dates only. Also a static snapshot; refresh with
+  `scripts/fetch_articles.py`.
 - `README.md` — setup/deploy instructions, including how to create a
   YouTube API key and re-run the fetch script.
 
@@ -59,7 +71,10 @@ Then open `http://localhost:8123`.
   browser (reported via screenshot, not yet reproduced/diagnosed in a
   controlled environment). The source JPEGs fetched directly from
   YouTube are correct, so the bug is presumed to be in the page's CSS/
-  layout, not the images themselves.
+  layout, not the images themselves. Speculative defensive fixes were
+  applied (`display:block` on the img, opaque `background-color` and
+  `isolation:isolate` on `.item-thumb`) but remain unverified in a
+  real browser — treat this as open until confirmed.
 - This dev environment has no browser, Node, or Playwright installed,
   and no working `pip`/`ensurepip`/passwordless `sudo` — so UI changes
   here have been verified by static analysis (syntax/brace-balance

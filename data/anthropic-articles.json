@@ -5,8 +5,8 @@
     "desc": "",
     "author": "Anthropic",
     "role": "Engineering",
-    "date": "2026-05-01",
-    "dateApproximate": true,
+    "date": "2026-05-25",
+    "dateApproximate": false,
     "tags": [
       "Engineering blog"
     ],
@@ -66,7 +66,7 @@
   },
   {
     "type": "article",
-    "title": "Eval awareness in Claude Opus 4.6's BrowseComp performance",
+    "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
     "desc": "",
     "author": "Anthropic",
     "role": "Engineering",

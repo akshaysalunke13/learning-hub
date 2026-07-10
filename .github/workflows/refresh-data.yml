@@ -1,0 +1,52 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # The secrets context is not available in step-level `if:`, so the
+    # presence check is surfaced through job-level env instead.
+    env:
+      HAS_YOUTUBE_KEY: ${{ secrets.YOUTUBE_API_KEY != '' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch YouTube playlist data
+        if: ${{ env.HAS_YOUTUBE_KEY == 'true' }}
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 scripts/fetch_playlist.py
+
+      - name: Skip YouTube playlist fetch (no API key configured)
+        if: ${{ env.HAS_YOUTUBE_KEY != 'true' }}
+        run: echo "YOUTUBE_API_KEY secret not set; skipping playlist refresh."
+
+      - name: Fetch Anthropic articles data
+        continue-on-error: true
+        run: |
+          if [ -f scripts/fetch_articles.py ]; then
+            python3 scripts/fetch_articles.py
+          else
+            echo "scripts/fetch_articles.py not found yet; skipping."
+          fi
+
+      - name: Commit and push data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet -- data/ || (git add data/ && git commit -m "chore: automated data refresh" && git push)

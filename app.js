@@ -12,7 +12,8 @@ const LABS = {
     headFont: "'Space Grotesk',sans-serif", thumbA: "#26262c", thumbB: "#2d2d34",
     tagline: "The Code with Claude library.", sub: "Every talk from Code with Claude, in one place.",
     content: [],
-    loaded: false
+    loaded: false,
+    loadError: false
   },
   openai: {
     name: "OpenAI", tag: "GPT", mono: "O", wordmark: "Build with OpenAI", badge: "PREVIEW",
@@ -64,7 +65,9 @@ const LABS = {
 
 const ORDER = ["anthropic", "openai", "google", "meta"];
 
-const state = { lab: "anthropic", query: "", sort: "newest", kind: "all" };
+function validLab(id) { return ORDER.includes(id) ? id : "anthropic"; }
+
+const state = { lab: validLab(location.hash.slice(1)), query: "", sort: "newest", kind: "all" };
 
 function fmtCount(n) {
   if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
@@ -109,11 +112,13 @@ function renderLabSwitcher(t) {
     const L = LABS[id];
     const active = id === state.lab;
     const btn = el("button", "lab-tile", { title: L.name, textContent: L.mono });
+    btn.setAttribute("aria-label", L.name);
+    btn.setAttribute("aria-current", active ? "true" : "false");
     btn.style.background = active ? L.accent : "rgba(255,255,255,.05)";
     btn.style.color = active ? L.accentInk : L.accent;
     btn.style.boxShadow = active ? `0 4px 14px ${L.accentSoft}` : "none";
     btn.style.fontFamily = L.headFont;
-    btn.addEventListener("click", () => { state.lab = id; state.query = ""; render(); });
+    btn.addEventListener("click", () => { location.hash = id; setLab(id); });
     wrap.appendChild(btn);
   });
 }
@@ -124,6 +129,7 @@ function renderSortGroup(t) {
   [["newest", "Newest"], ["popular", "Popular"], ["length", "Length"]].forEach(([id, label]) => {
     const active = id === state.sort;
     const btn = el("button", "chip-btn", { textContent: label });
+    btn.setAttribute("aria-pressed", active ? "true" : "false");
     btn.style.background = active ? t.accentSoft : "transparent";
     btn.style.color = active ? t.accent : t.muted;
     btn.addEventListener("click", () => { state.sort = id; render(); });
@@ -137,6 +143,7 @@ function renderKindGroup(t) {
   [["all", "All"], ["video", "Videos"], ["article", "Articles"]].forEach(([id, label]) => {
     const active = id === state.kind;
     const btn = el("button", "kind-btn", { textContent: label });
+    btn.setAttribute("aria-pressed", active ? "true" : "false");
     btn.style.background = active ? t.accentSoft : "transparent";
     btn.style.color = active ? t.accent : t.muted;
     btn.style.borderColor = active ? "transparent" : t.border;
@@ -154,11 +161,12 @@ function renderList(t, items) {
     const q = state.query.trim();
     const empty = el("div", "empty-state");
     const notLoaded = state.lab === "anthropic" && !LABS.anthropic.loaded;
+    const loadError = state.lab === "anthropic" && LABS.anthropic.loaded && LABS.anthropic.loadError;
     const title = el("div", "empty-title", {
-      textContent: notLoaded ? "Loading…" : q ? `No ${kindWord} match "${q}"` : `No ${kindWord} yet`
+      textContent: notLoaded ? "Loading…" : loadError ? "Couldn't load content" : q ? `No ${kindWord} match "${q}"` : `No ${kindWord} yet`
     });
     const sub = el("div", "empty-sub", {
-      textContent: notLoaded ? "Fetching the latest talks." : "Try a different title, type, or clear your search."
+      textContent: notLoaded ? "Fetching the latest talks." : loadError ? "Check your connection and reload the page." : "Try a different title, type, or clear your search."
     });
     empty.append(title, sub);
     wrap.appendChild(empty);
@@ -167,7 +175,9 @@ function renderList(t, items) {
 
   items.forEach(it => {
     const isVideo = it.type === "video";
-    const row = el("div", "item-row" + (it.url ? " has-link" : ""));
+    const row = it.url
+      ? el("a", "item-row has-link", { href: it.url, target: "_blank", rel: "noopener" })
+      : el("div", "item-row");
 
     const thumb = el("div", "item-thumb");
     if (it.thumbnail) {
@@ -214,10 +224,6 @@ function renderList(t, items) {
     body.appendChild(meta);
     row.appendChild(body);
 
-    if (it.url) {
-      row.addEventListener("click", () => window.open(it.url, "_blank", "noopener"));
-    }
-
     wrap.appendChild(row);
   });
 }
@@ -237,7 +243,10 @@ function render() {
 
   const q = state.query.trim().toLowerCase();
   let items = t.content.filter(it =>
-    (state.kind === "all" || it.type === state.kind) && it.title.toLowerCase().includes(q)
+    (state.kind === "all" || it.type === state.kind) &&
+    (it.title.toLowerCase().includes(q) ||
+      (it.author && it.author.toLowerCase().includes(q)) ||
+      (it.tags || []).some(tag => tag.toLowerCase().includes(q)))
   );
   items = items.slice().sort((a, b) => {
     if (state.sort === "popular") return popularity(b) - popularity(a);
@@ -267,18 +276,33 @@ clearBtn.addEventListener("click", () => {
   render();
 });
 
+function setLab(id) {
+  state.lab = id;
+  state.query = "";
+  searchInput.value = "";
+  clearBtn.hidden = true;
+  render();
+}
+
+window.addEventListener("hashchange", () => {
+  const id = validLab(location.hash.slice(1));
+  if (id !== state.lab) setLab(id);
+});
+
 async function loadAnthropicContent() {
   const load = async url => {
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(`${url}: ${res.status} ${res.statusText}`);
     return res.json();
   };
+  let videosFailed = false, articlesFailed = false;
   const [videos, articles] = await Promise.all([
-    load(ANTHROPIC_VIDEOS_URL).catch(err => { console.error(err); return []; }),
-    load(ANTHROPIC_ARTICLES_URL).catch(err => { console.error(err); return []; })
+    load(ANTHROPIC_VIDEOS_URL).catch(err => { console.error(err); videosFailed = true; return []; }),
+    load(ANTHROPIC_ARTICLES_URL).catch(err => { console.error(err); articlesFailed = true; return []; })
   ]);
   LABS.anthropic.content = [...videos, ...articles];
   LABS.anthropic.loaded = true;
+  LABS.anthropic.loadError = videosFailed && articlesFailed;
   if (state.lab === "anthropic") render();
 }
 

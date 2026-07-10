@@ -38,14 +38,37 @@ machine; it's never shipped to the site.
    ```
 3. Commit the updated `data/anthropic-videos.json` and redeploy.
 
-To keep it fresh automatically, run step 2 on a schedule (e.g. a
-GitHub Actions cron job that runs the script and commits the diff) —
-ask if you want that wired up.
+## Refreshing the article data
+
+`data/anthropic-articles.json` is likewise a static snapshot of
+Anthropic's [engineering blog](https://www.anthropic.com/engineering)
+index (titles, dates, links — the index has no per-post descriptions,
+so none are included). No API key needed:
+
+```
+python3 scripts/fetch_articles.py
+```
+
+The script refuses to overwrite the file if the fetch fails or parses
+to nothing, so a bad run never clobbers good data.
+
+## Automatic refresh (GitHub Actions)
+
+`.github/workflows/refresh-data.yml` runs both fetch scripts every
+Monday at 06:00 UTC (or on demand via **Actions → Refresh data → Run
+workflow**) and commits the diff if anything in `data/` changed. For
+the video refresh to run, add your key as a repo secret: **Settings →
+Secrets and variables → Actions → New repository secret** named
+`YOUTUBE_API_KEY`. Without it the playlist step is skipped (the
+articles refresh still runs).
 
 ## Deploying
 
-Any static host works — point it at this folder:
+`.github/workflows/deploy-pages.yml` deploys to GitHub Pages on every
+push to `main` — one-time setup: **Settings → Pages → Source →
+"GitHub Actions"**.
 
-- **GitHub Pages**: push to a repo, enable Pages on the branch/folder.
+Any other static host also works — point it at this folder:
+
 - **Netlify / Vercel / Cloudflare Pages**: connect the repo (or drag-and-drop
   the folder), no build command needed.

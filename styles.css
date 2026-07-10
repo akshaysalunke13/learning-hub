@@ -103,12 +103,15 @@ input::placeholder { color: inherit; opacity: .42; }
 
 /* ===== LIST ===== */
 .list { padding-bottom: 60px; }
-.item-row { display: flex; gap: 20px; padding: 17px 2px; border-top: 1px solid var(--row-line); }
+.item-row { display: flex; gap: 20px; padding: 17px 2px; border-top: 1px solid var(--row-line); color: inherit; text-decoration: none; }
 .item-row.has-link { cursor: pointer; }
+.item-row.has-link:hover .item-title { text-decoration: underline; }
+.item-row.has-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
 .item-thumb {
   flex: none; width: 188px; height: 106px; border-radius: 10px; position: relative; overflow: hidden;
+  background-color: var(--panel); isolation: isolate;
 }
-.item-thumb-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.item-thumb-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .item-thumb-icon { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
 .play-badge, .article-badge {
   width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
@@ -139,3 +142,24 @@ input::placeholder { color: inherit; opacity: .42; }
 .empty-state { text-align: center; padding: 70px 20px; color: var(--muted); }
 .empty-title { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: var(--ink); font-family: var(--head-font); }
 .empty-sub { font-size: 13.5px; }
+
+.lab-tile:focus-visible, .chip-btn:focus-visible, .kind-btn:focus-visible,
+.clear-btn:focus-visible, .search-box input:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+/* ===== RESPONSIVE (mobile/narrow) ===== */
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .row-top { flex-wrap: wrap; }
+  .lab-switcher { flex: none; }
+  .ad-slot { flex-basis: 100%; }
+  .search-sort { flex-wrap: wrap; }
+  .search-box { flex-basis: 100%; }
+  .sort-group { flex-basis: 100%; }
+  .kind-count { flex-wrap: wrap; gap: 8px; }
+  .item-row { flex-wrap: wrap; }
+  .item-thumb { width: 100%; height: auto; aspect-ratio: 188 / 106; }
+  .item-body { flex-basis: 100%; }
+  .item-tags { margin-left: 0; flex-basis: 100%; flex-wrap: wrap; margin-top: 4px; }
+}
