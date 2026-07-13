@@ -1,6 +1,19 @@
 [
   {
     "type": "article",
+    "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+    "desc": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/deutsche-telekom"
+  },
+  {
+    "type": "article",
     "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
     "desc": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
     "author": "OpenAI",
@@ -11,6 +24,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+  },
+  {
+    "type": "article",
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "desc": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/gpt-5-6"
   },
   {
     "type": "article",
@@ -37,19 +63,6 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/bio-bug-bounty"
-  },
-  {
-    "type": "article",
-    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-    "desc": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-09",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/gpt-5-6"
   },
   {
     "type": "article",
@@ -144,19 +157,6 @@
   },
   {
     "type": "article",
-    "title": "Introducing GeneBench-Pro",
-    "desc": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-genebench-pro"
-  },
-  {
-    "type": "article",
     "title": "Core dump epidemiology: fixing an 18-year-old bug",
     "desc": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
     "author": "OpenAI",
@@ -167,6 +167,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+  },
+  {
+    "type": "article",
+    "title": "Introducing GeneBench-Pro",
+    "desc": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-genebench-pro"
   },
   {
     "type": "article",
@@ -287,19 +300,6 @@
   },
   {
     "type": "article",
-    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-    "desc": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/patch-the-planet"
-  },
-  {
-    "type": "article",
     "title": "Daybreak: Tools for securing every organization in the world",
     "desc": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
     "author": "OpenAI",
@@ -310,6 +310,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/daybreak-securing-the-world"
+  },
+  {
+    "type": "article",
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "desc": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/patch-the-planet"
   },
   {
     "type": "article",
@@ -349,18 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls"
-  },
-  {
-    "type": "article",
-    "title": "Improving health intelligence in ChatGPT",
-    "desc": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-18",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
   }
 ]
