@@ -1,6 +1,45 @@
 [
   {
     "type": "article",
+    "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
+    "desc": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/"
+  },
+  {
+    "type": "article",
+    "title": "Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search",
+    "desc": "Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/"
+  },
+  {
+    "type": "article",
+    "title": "Building scalable AI agents with modular prompt transpilation",
+    "desc": "To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular \"skill files\" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/"
+  },
+  {
+    "type": "article",
     "title": "LiteRT.js, Google's high performance Web AI Inference",
     "desc": "We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI runtime to the web. Built for JavaScript developers, LiteRT.js delivers state-of-the-art ML model inference performance on WebGPU and upcoming WebNN, with a fallback to WebAssembly for CPU. This post provides a quick tour of LiteRT.js and gives web developers everything they need to get started.",
     "author": "Google for Developers",
@@ -40,6 +79,19 @@
   },
   {
     "type": "article",
+    "title": "Build agentic full-stack apps with Genkit",
+    "desc": "The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-01",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/"
+  },
+  {
+    "type": "article",
     "title": "Why we built ADK 2.0",
     "desc": "Answering the questions of \"why we built ADK 2.0\".  This explains the rationale, some of the features, and why a developer should consider upgrading.  This will be published the day after ADK go 2.0 launches.",
     "author": "Google for Developers",
@@ -63,19 +115,6 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/"
-  },
-  {
-    "type": "article",
-    "title": "Build agentic full-stack apps with Genkit",
-    "desc": "The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-01",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/"
   },
   {
     "type": "article",
@@ -193,57 +232,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/diffusiongemma-the-developer-guide/"
-  },
-  {
-    "type": "article",
-    "title": "Introducing the Google Colab CLI",
-    "desc": "Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs or models like fine-tuned Gemma 3 adapters. By integrating directly into standard terminal environments, the tool is highly programmable and ready to be used by AI agents such as Antigravity or Claude Code to manage complex machine learning pipelines.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-05",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/introducing-the-google-colab-cli/"
-  },
-  {
-    "type": "article",
-    "title": "Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge",
-    "desc": "Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-03",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/"
-  },
-  {
-    "type": "article",
-    "title": "Gemma 4 12B: The Developer Guide",
-    "desc": "The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-03",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/"
-  },
-  {
-    "type": "article",
-    "title": "How the community trained Gemma to \"Think\" with Tunix and TPUs",
-    "desc": "The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-05-28",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/"
   }
 ]

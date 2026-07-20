@@ -1,6 +1,110 @@
 [
   {
     "type": "article",
+    "title": "A scorecard for the AI age",
+    "desc": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-17",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+  },
+  {
+    "type": "article",
+    "title": "Why teens deserve access to safe AI",
+    "desc": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/why-teens-deserve-access-safe-ai"
+  },
+  {
+    "type": "article",
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "desc": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/cars24"
+  },
+  {
+    "type": "article",
+    "title": "The US is advancing AI safety through state and federal action",
+    "desc": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-15",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+  },
+  {
+    "type": "article",
+    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+    "desc": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-15",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/unlocking-self-improvement-gpt-red"
+  },
+  {
+    "type": "article",
+    "title": "How to manage AI investments in the agentic era",
+    "desc": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+  },
+  {
+    "type": "article",
+    "title": "How sales teams use ChatGPT Work",
+    "desc": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+  },
+  {
+    "type": "article",
+    "title": "How data science teams use ChatGPT Work",
+    "desc": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+  },
+  {
+    "type": "article",
     "title": "How Deutsche Telekom is rewiring telecommunications with AI",
     "desc": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
     "author": "OpenAI",
@@ -14,6 +118,19 @@
   },
   {
     "type": "article",
+    "title": "Getting started with ChatGPT",
+    "desc": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/academy/getting-started"
+  },
+  {
+    "type": "article",
     "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
     "desc": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
     "author": "OpenAI",
@@ -24,6 +141,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+  },
+  {
+    "type": "article",
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "desc": "Details about the OpenAI Bio Bounty program",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/bio-bug-bounty"
   },
   {
     "type": "article",
@@ -50,19 +180,6 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
-  },
-  {
-    "type": "article",
-    "title": "GPT-5.5 Bio Bug Bounty",
-    "desc": "Details about the OpenAI Bio Bounty program",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-09",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/bio-bug-bounty"
   },
   {
     "type": "article",
@@ -157,19 +274,6 @@
   },
   {
     "type": "article",
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
-    "desc": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
-  },
-  {
-    "type": "article",
     "title": "Introducing GeneBench-Pro",
     "desc": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
     "author": "OpenAI",
@@ -193,6 +297,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/genebench-pro/case-studies"
+  },
+  {
+    "type": "article",
+    "title": "Core dump epidemiology: fixing an 18-year-old bug",
+    "desc": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-06-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
   },
   {
     "type": "article",
@@ -245,122 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/how-agents-are-transforming-work"
-  },
-  {
-    "type": "article",
-    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-    "desc": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-24",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
-  },
-  {
-    "type": "article",
-    "title": "Helping build shared standards for advanced AI",
-    "desc": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-23",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
-  },
-  {
-    "type": "article",
-    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-    "desc": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-23",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/gpt-5-immunology-mystery"
-  },
-  {
-    "type": "article",
-    "title": "How Omio is building the future of conversational travel",
-    "desc": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-23",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/omio"
-  },
-  {
-    "type": "article",
-    "title": "Daybreak: Tools for securing every organization in the world",
-    "desc": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/daybreak-securing-the-world"
-  },
-  {
-    "type": "article",
-    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-    "desc": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/patch-the-planet"
-  },
-  {
-    "type": "article",
-    "title": "Codex-maxxing for long-running work",
-    "desc": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/codex-maxxing-long-running-work"
-  },
-  {
-    "type": "article",
-    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-    "desc": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
-  },
-  {
-    "type": "article",
-    "title": "New usage analytics and updated spend controls for enterprises",
-    "desc": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-18",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls"
   }
 ]
