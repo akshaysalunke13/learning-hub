@@ -1,6 +1,58 @@
 [
   {
     "type": "article",
+    "title": "Run Ray on TPU, Part 2: Ray AI libraries",
+    "desc": "This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-24",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/"
+  },
+  {
+    "type": "article",
+    "title": "Scaling Agentic RL: High-Throughput Agentic Training with Tunix",
+    "desc": "Tunix is Google’s new JAX-native post-training library designed to eliminate TPU idling bottlenecks when training multi-turn, tool-using LLM reasoning agents. It maximizes hardware throughput by combining highly concurrent, asynchronous rollouts with a decoupled producer-consumer pipeline, ensuring the trainer is constantly fed even while agents wait on network I/O or environment steps. Additionally, Tunix provides plug-and-play abstractions and continuous macro-level profiling, allowing developers to easily integrate custom open-source environments and optimize complex distributed workflows without massive code rewrites.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-21",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix/"
+  },
+  {
+    "type": "article",
+    "title": "Run Ray on TPU, Part 1: The foundations",
+    "desc": "Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict networking requirement of keeping multi-host TPU \"slices\" together over their Inter-Chip Interconnect (ICI), the KubeRay Operator on GKE automatically provisions and labels the underlying hardware layout. Ray Core utilizes these labels via its slice_placement_group() primitive to atomically reserve complete slices, allowing developers to deploy jobs through KubeRay, Ray Train, or Ray Serve simply by declaring a hardware topology (like \"4x4\") without writing custom placement code.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-20",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/"
+  },
+  {
+    "type": "article",
+    "title": "Building scalable AI agents with modular prompt transpilation",
+    "desc": "To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular \"skill files\" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/"
+  },
+  {
+    "type": "article",
     "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
     "desc": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.",
     "author": "Google for Developers",
@@ -24,19 +76,6 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/"
-  },
-  {
-    "type": "article",
-    "title": "Building scalable AI agents with modular prompt transpilation",
-    "desc": "To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular \"skill files\" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-16",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/"
   },
   {
     "type": "article",
@@ -206,31 +245,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/"
-  },
-  {
-    "type": "article",
-    "title": "Unlocking the Power of the TPU Stack: Introducing our new Developer Hub",
-    "desc": "Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-16",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/"
-  },
-  {
-    "type": "article",
-    "title": "DiffusionGemma: The Developer Guide",
-    "desc": "DiffusionGemma is an experimental text-generation model built on the Gemma 4 architecture that uses diffusion-based parallel generation instead of token-by-token autoregression, enabling much faster inference, bidirectional context awareness, and real-time self-correction while remaining deployable on consumer GPUs. Its architecture generates and refines 256-token blocks in parallel through iterative denoising, allowing it to handle complex constraint-based tasks such as Sudoku more effectively than traditional language models and demonstrating strong gains from fine-tuning. The model integrates with vLLM and other popular inference frameworks, giving developers access to a new non-autoregressive approach that combines high performance, efficient long-context scaling, and straightforward customization and deployment.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-10",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/diffusiongemma-the-developer-guide/"
   }
 ]

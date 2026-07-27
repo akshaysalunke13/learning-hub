@@ -1,6 +1,136 @@
 [
   {
     "type": "article",
+    "title": "Launching Health in ChatGPT",
+    "desc": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-23",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/health-in-chatgpt"
+  },
+  {
+    "type": "article",
+    "title": "Building AI infrastructure with the Effingham County community",
+    "desc": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community"
+  },
+  {
+    "type": "article",
+    "title": "How news organizations are using AI to advance their vital missions",
+    "desc": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/how-news-organizations-are-using-ai"
+  },
+  {
+    "type": "article",
+    "title": "Advancing the next era of national science",
+    "desc": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/advancing-the-next-era-of-national-science"
+  },
+  {
+    "type": "article",
+    "title": "Introducing OpenAI Presence",
+    "desc": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-openai-presence"
+  },
+  {
+    "type": "article",
+    "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+    "desc": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-22",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/ntt-data"
+  },
+  {
+    "type": "article",
+    "title": "Introducing the ChatGPT for small business program",
+    "desc": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-21",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-chatgpt-small-business-program"
+  },
+  {
+    "type": "article",
+    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "desc": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-21",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident"
+  },
+  {
+    "type": "article",
+    "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+    "desc": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-21",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
+  },
+  {
+    "type": "article",
+    "title": "Safety and alignment in an era of long-horizon models",
+    "desc": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-20",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/safety-alignment-long-horizon-models"
+  },
+  {
+    "type": "article",
     "title": "A scorecard for the AI age",
     "desc": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
     "author": "OpenAI",
@@ -24,6 +154,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/why-teens-deserve-access-safe-ai"
+  },
+  {
+    "type": "article",
+    "title": "How Codex became a collaborator for OpenAI’s creative team",
+    "desc": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/codex-collaborator-creative-team"
   },
   {
     "type": "article",
@@ -144,19 +287,6 @@
   },
   {
     "type": "article",
-    "title": "GPT-5.5 Bio Bug Bounty",
-    "desc": "Details about the OpenAI Bio Bounty program",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-09",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/bio-bug-bounty"
-  },
-  {
-    "type": "article",
     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
     "desc": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
     "author": "OpenAI",
@@ -180,6 +310,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+  },
+  {
+    "type": "article",
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "desc": "Details about the OpenAI Bio Bounty program",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-07-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/bio-bug-bounty"
   },
   {
     "type": "article",
@@ -219,148 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/k-12-educators-practical-skills"
-  },
-  {
-    "type": "article",
-    "title": "Introducing GPT-Live",
-    "desc": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-08",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-gpt-live"
-  },
-  {
-    "type": "article",
-    "title": "MUFG aims to become AI-native with OpenAI",
-    "desc": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-07",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/mufg"
-  },
-  {
-    "type": "article",
-    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-    "desc": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-07-07",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/australian-payments-plus"
-  },
-  {
-    "type": "article",
-    "title": "How ChatGPT adoption has expanded",
-    "desc": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
-  },
-  {
-    "type": "article",
-    "title": "Introducing GeneBench-Pro",
-    "desc": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-genebench-pro"
-  },
-  {
-    "type": "article",
-    "title": "Inside Genebench-Pro",
-    "desc": "",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/genebench-pro/case-studies"
-  },
-  {
-    "type": "article",
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
-    "desc": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
-  },
-  {
-    "type": "article",
-    "title": "Mapping Europe’s AI Workforce Opportunity",
-    "desc": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-29",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
-  },
-  {
-    "type": "article",
-    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-    "desc": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/hp-frontier-partnership"
-  },
-  {
-    "type": "article",
-    "title": "Previewing GPT-5.6 Sol: a next-generation model",
-    "desc": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-26",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/previewing-gpt-5-6-sol"
-  },
-  {
-    "type": "article",
-    "title": "How agents are transforming work",
-    "desc": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-06-25",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/how-agents-are-transforming-work"
   }
 ]
