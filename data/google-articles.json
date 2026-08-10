@@ -1,6 +1,97 @@
 [
   {
     "type": "article",
+    "title": "Agent Plugins package your skills, tools, and more",
+    "desc": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers or configurations to support different AI coding agents and IDEs. Google has officially joined as a Core Maintainer and already rolled out support in the Agents CLI and Data Agent Kit, allowing developers to start building and distributing interoperable plugins today.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/"
+  },
+  {
+    "type": "article",
+    "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
+    "desc": "The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspection, caching controls, and Multi Round-Trip Requests (MRTR) to handle interactive and long-running tasks without blocking connections. Developers can immediately begin migrating their agentic applications to this highly scalable infrastructure using the newly available beta SDKs for Python, TypeScript, Go, and C#.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-05",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/"
+  },
+  {
+    "type": "article",
+    "title": "Model routing with Google Cloud API Gateway",
+    "desc": "Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-04",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/"
+  },
+  {
+    "type": "article",
+    "title": "Scaling real-time AI agents with session-aware load balancing",
+    "desc": "Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement application-level session tracking directly within the runtime to accurately measure the committed concurrent workload of active conversations. By feeding these precise session counts alongside standard CPU utilization metrics into a hybrid routing algorithm, infrastructure can effectively distribute stateful AI traffic and prevent individual backend bottlenecks.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-03",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/"
+  },
+  {
+    "type": "article",
+    "title": "Enable on-demand expertise with Agent Skills in Genkit Go",
+    "desc": "To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references into modular SKILL.md bundles where only the frontmatter metadata is initially exposed to the agent's system prompt. When a task matches the skill's description, Genkit's middleware dynamically loads the full instruction body and associated assets, ensuring the model accesses precise workflows exactly when needed.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-31",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/enable-on-demand-expertise-with-agent-skills-in-genkit-go/"
+  },
+  {
+    "type": "article",
+    "title": "Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA",
+    "desc": "Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-31",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/"
+  },
+  {
+    "type": "article",
+    "title": "How to use Google microbenchmarks for evaluating TPU performance",
+    "desc": "Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By leveraging these benchmarks to establish a Roofline model, engineers can accurately diagnose whether their machine learning workloads are compute-, memory-, or network-bound. This empirical baseline directly guides targeted software optimizations—such as kernel tuning, mesh sharding, and rematerialization—to maximize hardware utilization for large-scale model deployments.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-07-30",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/"
+  },
+  {
+    "type": "article",
     "title": "Run Ray on TPU, Part 2: Ray AI libraries",
     "desc": "This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.",
     "author": "Google for Developers",
@@ -154,96 +245,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/"
-  },
-  {
-    "type": "article",
-    "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
-    "desc": "Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/"
-  },
-  {
-    "type": "article",
-    "title": "Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration",
-    "desc": "The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-30",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/announcing-adk-go-20/"
-  },
-  {
-    "type": "article",
-    "title": "Measuring What Matters with Jules",
-    "desc": "AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/measuring-what-matters-with-jules/"
-  },
-  {
-    "type": "article",
-    "title": "Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A",
-    "desc": "How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-22",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/"
-  },
-  {
-    "type": "article",
-    "title": "How A2A is Building a World of Collaborative Agents",
-    "desc": "Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-18",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/"
-  },
-  {
-    "type": "article",
-    "title": "A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs",
-    "desc": "This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-17",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/a2ui-and-mcp-apps/"
-  },
-  {
-    "type": "article",
-    "title": "Announcing the Agentic Resource Discovery specification",
-    "desc": "An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-06-17",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/"
   }
 ]
