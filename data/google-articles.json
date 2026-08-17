@@ -1,6 +1,32 @@
 [
   {
     "type": "article",
+    "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
+    "desc": "As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-11",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+  },
+  {
+    "type": "article",
+    "title": "Mastering Edge AI on Raspberry Pi with LiteRT and Gemma",
+    "desc": "Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-11",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/"
+  },
+  {
+    "type": "article",
     "title": "Agent Plugins package your skills, tools, and more",
     "desc": "Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers or configurations to support different AI coding agents and IDEs. Google has officially joined as a Core Maintainer and already rolled out support in the Agents CLI and Data Agent Kit, allowing developers to start building and distributing interoperable plugins today.",
     "author": "Google for Developers",
@@ -193,57 +219,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/"
-  },
-  {
-    "type": "article",
-    "title": "We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText",
-    "desc": "Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-06",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/"
-  },
-  {
-    "type": "article",
-    "title": "Build agentic full-stack apps with Genkit",
-    "desc": "The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-01",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/"
-  },
-  {
-    "type": "article",
-    "title": "Why we built ADK 2.0",
-    "desc": "Answering the questions of \"why we built ADK 2.0\".  This explains the rationale, some of the features, and why a developer should consider upgrading.  This will be published the day after ADK go 2.0 launches.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-01",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/why-we-built-adk-20/"
-  },
-  {
-    "type": "article",
-    "title": "ML Development in VS Code with Google Cloud Power: Workbench Extension Now Available",
-    "desc": "The Google Cloud Workbench Notebooks extension for VS Code has officially launched, allowing developers to connect their local IDE to scalable, cloud-based Jupyter environments. This integration streamlines the machine learning lifecycle by eliminating context switching and providing direct access to high-performance Google Cloud infrastructure. To support transparency and community-driven innovation, the newly released extension is fully open-sourced and available on GitHub and the VS Code Marketplace.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-01",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/"
   }
 ]
