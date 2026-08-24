@@ -1,16 +1,16 @@
 [
   {
     "type": "article",
-    "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
-    "desc": "As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.",
+    "title": "Build zero-trust AI agents with Google's Agent Development Kit",
+    "desc": "Building autonomous AI agents that mutate production state requires moving beyond soft system prompts to a robust zero-trust architecture. To secure Google Agent Development Kit (ADK) workflows against prompt injections and malicious execution, developers must implement hardware-backed cryptographic signatures for database writes, kernel-level sandboxing with gVisor for dynamic code, and deterministic semantic gateways for I/O validation. By enforcing these hard security boundaries at the infrastructure level, you can safely deploy multi-tool AI agents without risking unauthorized data manipulation or server compromise.",
     "author": "Google for Developers",
     "role": "Developers Blog",
-    "date": "2026-08-11",
+    "date": "2026-08-17",
     "dateApproximate": false,
     "tags": [
       "Google for Developers Blog"
     ],
-    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+    "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/"
   },
   {
     "type": "article",
@@ -24,6 +24,19 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/"
+  },
+  {
+    "type": "article",
+    "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
+    "desc": "As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-11",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
   },
   {
     "type": "article",
@@ -206,18 +219,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/"
-  },
-  {
-    "type": "article",
-    "title": "Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini",
-    "desc": "On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-08",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/"
   }
 ]
