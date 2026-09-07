@@ -1,6 +1,19 @@
 [
   {
     "type": "article",
+    "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+    "desc": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers: A structured, auditable knowledge architecture separates what [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-09-02",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"
+  },
+  {
+    "type": "article",
     "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
     "desc": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in [...]",
     "author": "Meta Engineering",

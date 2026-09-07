@@ -1,6 +1,32 @@
 [
   {
     "type": "article",
+    "title": "Driving Developer Excellence: Inside the Program Sprints",
+    "desc": "The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This recent sprint focused on optimizing enterprise AI governance, including refining setup prerequisites, securing extension configurations, and clarifying policy enforcement mechanics to ensure a smoother, more reliable deployment. Developers can now leverage updated documentation and standardized code samples to improve their experience with Agent Gateway and Semantic Governance configurations.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-09-04",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/"
+  },
+  {
+    "type": "article",
+    "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
+    "desc": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-09-02",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/"
+  },
+  {
+    "type": "article",
     "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
     "desc": "Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.",
     "author": "Google for Developers",
@@ -40,19 +66,6 @@
   },
   {
     "type": "article",
-    "title": "Mastering Edge AI on Raspberry Pi with LiteRT and Gemma",
-    "desc": "Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-11",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/"
-  },
-  {
-    "type": "article",
     "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
     "desc": "As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.",
     "author": "Google for Developers",
@@ -63,6 +76,19 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+  },
+  {
+    "type": "article",
+    "title": "Mastering Edge AI on Raspberry Pi with LiteRT and Gemma",
+    "desc": "Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-08-11",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/"
   },
   {
     "type": "article",
@@ -193,31 +219,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/"
-  },
-  {
-    "type": "article",
-    "title": "Building scalable AI agents with modular prompt transpilation",
-    "desc": "To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular \"skill files\" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-16",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/"
-  },
-  {
-    "type": "article",
-    "title": "Evolving Spec-Driven Development: Conductor Now Supports Antigravity",
-    "desc": "Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-07-16",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/"
   }
 ]
