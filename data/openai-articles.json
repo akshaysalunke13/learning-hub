@@ -1,6 +1,253 @@
 [
   {
     "type": "article",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "desc": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+  },
+  {
+    "type": "article",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "desc": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-11",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+  },
+  {
+    "type": "article",
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "desc": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-11",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra"
+  },
+  {
+    "type": "article",
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "desc": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+  },
+  {
+    "type": "article",
+    "title": "Now everyone can put data to work",
+    "desc": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/put-data-to-work"
+  },
+  {
+    "type": "article",
+    "title": "Introducing ChatGPT for Financial Services",
+    "desc": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services"
+  },
+  {
+    "type": "article",
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "desc": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/expanding-ai-access-us-government"
+  },
+  {
+    "type": "article",
+    "title": "Introducing the Agents API",
+    "desc": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-the-agents-api"
+  },
+  {
+    "type": "article",
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "desc": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+  },
+  {
+    "type": "article",
+    "title": "The AI policy window is open. We need to act.",
+    "desc": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/ai-policy-window"
+  },
+  {
+    "type": "article",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "desc": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+  },
+  {
+    "type": "article",
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "desc": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+  },
+  {
+    "type": "article",
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "desc": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/codex-quantum-computing-experiments"
+  },
+  {
+    "type": "article",
+    "title": "The Work Now Within Reach",
+    "desc": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/the-work-now-within-reach"
+  },
+  {
+    "type": "article",
+    "title": "Introducing ChatGPT Images 2.5",
+    "desc": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-5"
+  },
+  {
+    "type": "article",
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "desc": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/navier-stokes-solution"
+  },
+  {
+    "type": "article",
+    "title": "Funding grants for new research into AI and teen development",
+    "desc": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/teen-development-research-grants"
+  },
+  {
+    "type": "article",
+    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "desc": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+  },
+  {
+    "type": "article",
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "desc": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-08",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/1password"
+  },
+  {
+    "type": "article",
     "title": "Supporting independent journalism in Ukraine",
     "desc": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
     "author": "OpenAI",
@@ -53,19 +300,6 @@
   },
   {
     "type": "article",
-    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-    "desc": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
-  },
-  {
-    "type": "article",
     "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
     "desc": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
     "author": "OpenAI",
@@ -76,6 +310,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/playco-game-prototyping-with-astra"
+  },
+  {
+    "type": "article",
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "desc": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-03",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
   },
   {
     "type": "article",
@@ -115,252 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/atv-big-air-tour"
-  },
-  {
-    "type": "article",
-    "title": "How AI-native companies turn workflows into operating capability",
-    "desc": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/ai-native-company-workflows"
-  },
-  {
-    "type": "article",
-    "title": "Path to Astra: critical capabilities and frontier safeguards",
-    "desc": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/path-to-astra"
-  },
-  {
-    "type": "article",
-    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-    "desc": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
-  },
-  {
-    "type": "article",
-    "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-    "desc": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/gilbert-tobin"
-  },
-  {
-    "type": "article",
-    "title": "OpenAI supports California’s bill to advance youth AI safety",
-    "desc": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-31",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
-  },
-  {
-    "type": "article",
-    "title": "Polimill builds Japan's next-generation public AI infrastructure",
-    "desc": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-31",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/polimill"
-  },
-  {
-    "type": "article",
-    "title": "A milestone in expanding access to AI",
-    "desc": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-31",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
-  },
-  {
-    "type": "article",
-    "title": "Our decision on Cursor following its acquisition by SpaceX",
-    "desc": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
-  },
-  {
-    "type": "article",
-    "title": "Supporting Thailand’s next generation of AI startups",
-    "desc": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
-  },
-  {
-    "type": "article",
-    "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-    "desc": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-27",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
-  },
-  {
-    "type": "article",
-    "title": "Expanding OpenAI’s presence in Brazil",
-    "desc": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-27",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/expanding-our-presence-in-brazil"
-  },
-  {
-    "type": "article",
-    "title": "Learning never stops: How AI makes learning continuous",
-    "desc": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-26",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/learning-never-stops"
-  },
-  {
-    "type": "article",
-    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-    "desc": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-26",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
-  },
-  {
-    "type": "article",
-    "title": "The Hugging Face incident and the road ahead",
-    "desc": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-26",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
-  },
-  {
-    "type": "article",
-    "title": "How loveholidays is making everyone a builder with Codex",
-    "desc": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-26",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/loveholidays"
-  },
-  {
-    "type": "article",
-    "title": "The full stack behind abundant intelligence",
-    "desc": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-25",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
-  },
-  {
-    "type": "article",
-    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-    "desc": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-25",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/jalapeno-first-results"
-  },
-  {
-    "type": "article",
-    "title": "Disrupting a new covert influence campaign from Russia",
-    "desc": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-25",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
-  },
-  {
-    "type": "article",
-    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-    "desc": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-08-25",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-admin-plugin"
   }
 ]
