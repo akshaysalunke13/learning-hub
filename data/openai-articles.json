@@ -1,6 +1,136 @@
 [
   {
     "type": "article",
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "desc": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-18",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/australian-youth-safety-blueprint"
+  },
+  {
+    "type": "article",
+    "title": "How Cooley is accelerating IPO work with ChatGPT",
+    "desc": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-17",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/cooley-gopublic"
+  },
+  {
+    "type": "article",
+    "title": "Introducing Astra for Law",
+    "desc": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-17",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/astra-for-law"
+  },
+  {
+    "type": "article",
+    "title": "Helping older adults use AI in everyday life",
+    "desc": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+  },
+  {
+    "type": "article",
+    "title": "Reimagining advertising with AI",
+    "desc": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/reimagining-advertising-with-ai"
+  },
+  {
+    "type": "article",
+    "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+    "desc": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/hex-gpt-6-astra"
+  },
+  {
+    "type": "article",
+    "title": "How to connect AI usage to business value",
+    "desc": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value"
+  },
+  {
+    "type": "article",
+    "title": "Our framework for reporting model misalignment",
+    "desc": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/model-misalignment-reporting-framework"
+  },
+  {
+    "type": "article",
+    "title": "How workers are unlocking new ways of working",
+    "desc": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/unlocking-new-ways-of-working"
+  },
+  {
+    "type": "article",
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "desc": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/fyxer"
+  },
+  {
+    "type": "article",
     "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
     "desc": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
     "author": "OpenAI",
@@ -92,19 +222,6 @@
   },
   {
     "type": "article",
-    "title": "Introducing the Agents API",
-    "desc": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-10",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-the-agents-api"
-  },
-  {
-    "type": "article",
     "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
     "desc": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
     "author": "OpenAI",
@@ -115,6 +232,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+  },
+  {
+    "type": "article",
+    "title": "Introducing the Agents API",
+    "desc": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-10",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-the-agents-api"
   },
   {
     "type": "article",
@@ -232,135 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
-  },
-  {
-    "type": "article",
-    "title": "1Password increases engineering productivity 21% with Codex",
-    "desc": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-08",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/1password"
-  },
-  {
-    "type": "article",
-    "title": "Supporting independent journalism in Ukraine",
-    "desc": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-07",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
-  },
-  {
-    "type": "article",
-    "title": "An Alien Mind",
-    "desc": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-06",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/an-alien-mind"
-  },
-  {
-    "type": "article",
-    "title": "Research acceleration: The view inside OpenAI",
-    "desc": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-06",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/research-acceleration-view-inside-openai"
-  },
-  {
-    "type": "article",
-    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-    "desc": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/daybreak-for-frontline-defenders"
-  },
-  {
-    "type": "article",
-    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-    "desc": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/playco-game-prototyping-with-astra"
-  },
-  {
-    "type": "article",
-    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-    "desc": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
-  },
-  {
-    "type": "article",
-    "title": "GPT-6 Astra: A new generation of intelligence",
-    "desc": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/gpt-6-astra"
-  },
-  {
-    "type": "article",
-    "title": "Safety overview: GPT-6 Astra",
-    "desc": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-03",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/safety-overview-gpt-6-astra"
-  },
-  {
-    "type": "article",
-    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-    "desc": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-02",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/atv-big-air-tour"
   }
 ]
