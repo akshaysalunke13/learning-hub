@@ -1,6 +1,19 @@
 [
   {
     "type": "article",
+    "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+    "desc": "The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-09-24",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/"
+  },
+  {
+    "type": "article",
     "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
     "desc": "Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard REST operations into discoverable, agent-ready tools. The gateway automatically transcodes incoming MCP JSON-RPC requests into REST calls, ensuring that your existing authentication, quotas, and logging policies apply seamlessly to agent traffic without requiring new infrastructure.",
     "author": "Google for Developers",
@@ -11,19 +24,6 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
-  },
-  {
-    "type": "article",
-    "title": "Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-    "desc": "The MaxText team successfully reproduced AI2’s OLMo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-09-24",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/"
   },
   {
     "type": "article",
@@ -206,18 +206,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
-  },
-  {
-    "type": "article",
-    "title": "Mastering Edge AI on Raspberry Pi with LiteRT and Gemma",
-    "desc": "Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-11",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/"
   }
 ]

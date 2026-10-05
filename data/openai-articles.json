@@ -1,6 +1,214 @@
 [
   {
     "type": "article",
+    "title": "Building advertising for the way people use AI",
+    "desc": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-05",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+  },
+  {
+    "type": "article",
+    "title": "A model guide for the GPT-6 family",
+    "desc": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-02",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/practical-guide-building-gpt-6"
+  },
+  {
+    "type": "article",
+    "title": "Chatham scales its capital markets expertise with OpenAI",
+    "desc": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-02",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/chatham-financial"
+  },
+  {
+    "type": "article",
+    "title": "The eternal complement",
+    "desc": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-01",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/the-eternal-complement"
+  },
+  {
+    "type": "article",
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "desc": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-01",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/albertsons-reimagining-retail"
+  },
+  {
+    "type": "article",
+    "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+    "desc": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-01",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/the-den-family-social"
+  },
+  {
+    "type": "article",
+    "title": "Disrupting a coordinated model-distillation campaign",
+    "desc": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+  },
+  {
+    "type": "article",
+    "title": "Helping small businesses put AI to work",
+    "desc": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-30",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+  },
+  {
+    "type": "article",
+    "title": "DevDay 2026 Recap",
+    "desc": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/devday-2026-recap"
+  },
+  {
+    "type": "article",
+    "title": "Introducing GPT-6.1 Sol",
+    "desc": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+  },
+  {
+    "type": "article",
+    "title": "Introducing dots",
+    "desc": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-29",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-dots"
+  },
+  {
+    "type": "article",
+    "title": "How we will do better for Australia",
+    "desc": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia"
+  },
+  {
+    "type": "article",
+    "title": "Towards safety cases for frontier AI training",
+    "desc": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+  },
+  {
+    "type": "article",
+    "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+    "desc": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+  },
+  {
+    "type": "article",
+    "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+    "desc": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/basis-tax-workbook-with-astra"
+  },
+  {
+    "type": "article",
+    "title": "Are you a Codex Original?",
+    "desc": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-28",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/form/codex-originals"
+  },
+  {
+    "type": "article",
     "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
     "desc": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
     "author": "OpenAI",
@@ -40,8 +248,8 @@
   },
   {
     "type": "article",
-    "title": "Sam Altman’s remarks at the United Nations Security Council",
-    "desc": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+    "desc": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
     "author": "OpenAI",
     "role": "News",
     "date": "2026-09-23",
@@ -49,7 +257,7 @@
     "tags": [
       "OpenAI News"
     ],
-    "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+    "url": "https://openai.com/index/ringg"
   },
   {
     "type": "article",
@@ -66,6 +274,19 @@
   },
   {
     "type": "article",
+    "title": "Sam Altman’s remarks at the United Nations Security Council",
+    "desc": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-09-23",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+  },
+  {
+    "type": "article",
     "title": "How invideo improves color grading 3x with GPT‑6 Astra",
     "desc": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
     "author": "OpenAI",
@@ -76,19 +297,6 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra"
-  },
-  {
-    "type": "article",
-    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-    "desc": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-23",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/ringg"
   },
   {
     "type": "article",
@@ -154,213 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
-  },
-  {
-    "type": "article",
-    "title": "Introducing GPT-6 Sol and Luna",
-    "desc": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
-  },
-  {
-    "type": "article",
-    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-    "desc": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
-  },
-  {
-    "type": "article",
-    "title": "Priorities and principles for effective third party assessments",
-    "desc": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-22",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/priorities-principles-third-party-assessments"
-  },
-  {
-    "type": "article",
-    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-    "desc": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
-  },
-  {
-    "type": "article",
-    "title": "Advisory Group on Mathematics and Artificial Intelligence",
-    "desc": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
-  },
-  {
-    "type": "article",
-    "title": "Building standards for the next phase of AI",
-    "desc": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/building-standards-next-phase-ai"
-  },
-  {
-    "type": "article",
-    "title": "Expanding OpenAI Academy with new learning paths",
-    "desc": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
-  },
-  {
-    "type": "article",
-    "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-    "desc": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-21",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/v7"
-  },
-  {
-    "type": "article",
-    "title": "Introducing the Australian Youth Safety Blueprint",
-    "desc": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-18",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/australian-youth-safety-blueprint"
-  },
-  {
-    "type": "article",
-    "title": "How Cooley is accelerating IPO work with ChatGPT",
-    "desc": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-17",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/cooley-gopublic"
-  },
-  {
-    "type": "article",
-    "title": "Introducing Astra for Law",
-    "desc": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-17",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/astra-for-law"
-  },
-  {
-    "type": "article",
-    "title": "Helping older adults use AI in everyday life",
-    "desc": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-16",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
-  },
-  {
-    "type": "article",
-    "title": "Reimagining advertising with AI",
-    "desc": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-16",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/reimagining-advertising-with-ai"
-  },
-  {
-    "type": "article",
-    "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-    "desc": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-16",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/hex-gpt-6-astra"
-  },
-  {
-    "type": "article",
-    "title": "How to connect AI usage to business value",
-    "desc": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-16",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value"
-  },
-  {
-    "type": "article",
-    "title": "Our framework for reporting model misalignment",
-    "desc": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-16",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/model-misalignment-reporting-framework"
   }
 ]
