@@ -1,16 +1,68 @@
 [
   {
     "type": "article",
-    "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-    "desc": "The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.",
+    "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+    "desc": "How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the exact deployed source snapshot.",
     "author": "Google for Developers",
     "role": "Developers Blog",
-    "date": "2026-09-24",
+    "date": "2026-10-08",
     "dateApproximate": false,
     "tags": [
       "Google for Developers Blog"
     ],
-    "url": "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/"
+    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/"
+  },
+  {
+    "type": "article",
+    "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
+    "desc": "Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experiences, from sophisticated video effects to generative AI, across mobile and desktop platforms.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-08",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/"
+  },
+  {
+    "type": "article",
+    "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+    "desc": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-07",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/"
+  },
+  {
+    "type": "article",
+    "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+    "desc": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
+  },
+  {
+    "type": "article",
+    "title": "EmbeddingGemma 2: The Developer Guide",
+    "desc": "EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/"
   },
   {
     "type": "article",
@@ -24,6 +76,19 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
+  },
+  {
+    "type": "article",
+    "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+    "desc": "The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-09-24",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/"
   },
   {
     "type": "article",
@@ -167,44 +232,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/enterprise-grade-precision-for-long-context-multimodal-embedding-inference-on-cloud-tpu/"
-  },
-  {
-    "type": "article",
-    "title": "How to Evaluate Live & Voice Agents in ADK",
-    "desc": "Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining evaluation scenarios and natural-language rubrics, you can automatically score audio responses and tool executions, inspect the resulting transcripts in ADK Web, or run the CLI directly in your CI/CD pipeline.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-24",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/"
-  },
-  {
-    "type": "article",
-    "title": "Build zero-trust AI agents with Google's Agent Development Kit",
-    "desc": "Building autonomous AI agents that mutate production state requires moving beyond soft system prompts to a robust zero-trust architecture. To secure Google Agent Development Kit (ADK) workflows against prompt injections and malicious execution, developers must implement hardware-backed cryptographic signatures for database writes, kernel-level sandboxing with gVisor for dynamic code, and deterministic semantic gateways for I/O validation. By enforcing these hard security boundaries at the infrastructure level, you can safely deploy multi-tool AI agents without risking unauthorized data manipulation or server compromise.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-17",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/"
-  },
-  {
-    "type": "article",
-    "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
-    "desc": "As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-11",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
   }
 ]
