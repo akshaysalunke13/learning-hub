@@ -1,16 +1,159 @@
 [
   {
     "type": "article",
-    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-    "desc": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "desc": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
     "author": "OpenAI",
     "role": "News",
-    "date": "2026-10-09",
+    "date": "2026-10-16",
     "dateApproximate": false,
     "tags": [
       "OpenAI News"
     ],
-    "url": "https://openai.com/index/sophos"
+    "url": "https://openai.com/index/itau-generative-ai"
+  },
+  {
+    "type": "article",
+    "title": "Benefit Street Partners answers questions faster with Codex",
+    "desc": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/benefit-street-partners"
+  },
+  {
+    "type": "article",
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "desc": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-16",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+  },
+  {
+    "type": "article",
+    "title": "Bringing GPT-Rosalind to academic research labs",
+    "desc": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-15",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+  },
+  {
+    "type": "article",
+    "title": "Teaching students to think and learn through questions",
+    "desc": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-15",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+  },
+  {
+    "type": "article",
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "desc": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-15",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/sullivan-cromwell"
+  },
+  {
+    "type": "article",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "desc": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/amp-beyond-coding"
+  },
+  {
+    "type": "article",
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "desc": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/sentinelone"
+  },
+  {
+    "type": "article",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "desc": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/third-moment-research"
+  },
+  {
+    "type": "article",
+    "title": "How Block is building AI-powered security with OpenAI technology",
+    "desc": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/block-ai-powered-security"
+  },
+  {
+    "type": "article",
+    "title": "The EU’s next chapter in AI is agentic",
+    "desc": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+  },
+  {
+    "type": "article",
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "desc": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-13",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice"
   },
   {
     "type": "article",
@@ -24,6 +167,19 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/asana-browser-agent"
+  },
+  {
+    "type": "article",
+    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+    "desc": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    "author": "OpenAI",
+    "role": "News",
+    "date": "2026-10-09",
+    "dateApproximate": false,
+    "tags": [
+      "OpenAI News"
+    ],
+    "url": "https://openai.com/index/sophos"
   },
   {
     "type": "article",
@@ -206,161 +362,5 @@
       "OpenAI News"
     ],
     "url": "https://openai.com/index/practical-guide-building-gpt-6"
-  },
-  {
-    "type": "article",
-    "title": "Chatham scales its capital markets expertise with OpenAI",
-    "desc": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-10-02",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/chatham-financial"
-  },
-  {
-    "type": "article",
-    "title": "The eternal complement",
-    "desc": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-10-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/the-eternal-complement"
-  },
-  {
-    "type": "article",
-    "title": "How Albertsons Companies is reimagining retail from the inside out",
-    "desc": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-10-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/albertsons-reimagining-retail"
-  },
-  {
-    "type": "article",
-    "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-    "desc": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-10-01",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/the-den-family-social"
-  },
-  {
-    "type": "article",
-    "title": "Disrupting a coordinated model-distillation campaign",
-    "desc": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
-  },
-  {
-    "type": "article",
-    "title": "Helping small businesses put AI to work",
-    "desc": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-30",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
-  },
-  {
-    "type": "article",
-    "title": "DevDay 2026 Recap",
-    "desc": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-29",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/devday-2026-recap"
-  },
-  {
-    "type": "article",
-    "title": "Introducing GPT-6.1 Sol",
-    "desc": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-29",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-gpt-6-1-sol"
-  },
-  {
-    "type": "article",
-    "title": "Introducing dots",
-    "desc": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-29",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/introducing-dots"
-  },
-  {
-    "type": "article",
-    "title": "How we will do better for Australia",
-    "desc": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/how-we-will-do-better-for-australia"
-  },
-  {
-    "type": "article",
-    "title": "Towards safety cases for frontier AI training",
-    "desc": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
-  },
-  {
-    "type": "article",
-    "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-    "desc": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-    "author": "OpenAI",
-    "role": "News",
-    "date": "2026-09-28",
-    "dateApproximate": false,
-    "tags": [
-      "OpenAI News"
-    ],
-    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
   }
 ]

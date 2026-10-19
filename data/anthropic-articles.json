@@ -1,6 +1,19 @@
 [
   {
     "type": "article",
+    "title": " Redesigning source control at Anthropic",
+    "desc": "",
+    "author": "Anthropic",
+    "role": "Engineering",
+    "date": "2026-10-13",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering blog"
+    ],
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+  },
+  {
+    "type": "article",
     "title": "How we contain Claude across products",
     "desc": "",
     "author": "Anthropic",

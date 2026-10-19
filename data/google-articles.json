@@ -1,16 +1,81 @@
 [
   {
     "type": "article",
-    "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
-    "desc": "How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the exact deployed source snapshot.",
+    "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens",
+    "desc": "Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.",
     "author": "Google for Developers",
     "role": "Developers Blog",
-    "date": "2026-10-08",
+    "date": "2026-10-15",
     "dateApproximate": false,
     "tags": [
       "Google for Developers Blog"
     ],
-    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/"
+    "url": "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/"
+  },
+  {
+    "type": "article",
+    "title": "Three layers, one repo: a tour of google/adk-recipes",
+    "desc": "The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready services across multiple languages. This cohesive structure streamlines the entire workflow from initial scaffolding to full deployment on Google Cloud infrastructure.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-15",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/"
+  },
+  {
+    "type": "article",
+    "title": "Evaluating AI agents: moving past the vibe check",
+    "desc": "A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-15",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/"
+  },
+  {
+    "type": "article",
+    "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+    "desc": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-14",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/"
+  },
+  {
+    "type": "article",
+    "title": "Gemini 4 Argon for Robotics",
+    "desc": "Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-13",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+  },
+  {
+    "type": "article",
+    "title": "Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon",
+    "desc": "How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-13",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/"
   },
   {
     "type": "article",
@@ -27,6 +92,19 @@
   },
   {
     "type": "article",
+    "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+    "desc": "How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the exact deployed source snapshot.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-08",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/"
+  },
+  {
+    "type": "article",
     "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
     "desc": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.",
     "author": "Google for Developers",
@@ -40,19 +118,6 @@
   },
   {
     "type": "article",
-    "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
-    "desc": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-10-06",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
-  },
-  {
-    "type": "article",
     "title": "EmbeddingGemma 2: The Developer Guide",
     "desc": "EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.",
     "author": "Google for Developers",
@@ -63,6 +128,19 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/"
+  },
+  {
+    "type": "article",
+    "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+    "desc": "EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
   },
   {
     "type": "article",
@@ -167,70 +245,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/"
-  },
-  {
-    "type": "article",
-    "title": "The Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents",
-    "desc": "While end-to-end benchmarks like SWE-bench provide broad performance scores for AI agents, they are often expensive, slow, and lack the root-cause diagnostics needed to explain exactly where an agent's logic broke down. To solve this, developers should adopt behavioral evaluations—fast, local, unit-style tests that assert on discrete intermediate actions, such as verifying specific tool calls or file modifications rather than final string equality. By building these inexpensive micro-checks alongside macro benchmarks, engineering teams can confidently iterate on system prompts and upgrade models without the risk of regressions.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-09-09",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/"
-  },
-  {
-    "type": "article",
-    "title": "Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond",
-    "desc": "Google has officially released version 1.0 of the Agent Development Kit (ADK) for Kotlin, achieving full feature parity with the Python and Java ADK cores to enable idiomatic, multi-agent AI development. Built on Kotlin Multiplatform (KMP), the framework leverages Kotlin Symbol Processing (KSP) for zero-reflection, type-safe function calling, alongside advanced orchestration capabilities like human-in-the-loop workflows and context compaction. Additionally, the release introduces a robust suite of Android-first extensions, allowing mobile developers to integrate local models via LiteRT-LM, cloud reasoning through Firebase AI, session persistence using Room, and semantic memory powered by AppSearch.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-09-09",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/"
-  },
-  {
-    "type": "article",
-    "title": "Driving Developer Excellence: Inside the Program Sprints",
-    "desc": "The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This recent sprint focused on optimizing enterprise AI governance, including refining setup prerequisites, securing extension configurations, and clarifying policy enforcement mechanics to ensure a smoother, more reliable deployment. Developers can now leverage updated documentation and standardized code samples to improve their experience with Agent Gateway and Semantic Governance configurations.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-09-04",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/"
-  },
-  {
-    "type": "article",
-    "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
-    "desc": "The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-09-02",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/"
-  },
-  {
-    "type": "article",
-    "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
-    "desc": "Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-08-26",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/enterprise-grade-precision-for-long-context-multimodal-embedding-inference-on-cloud-tpu/"
   }
 ]
