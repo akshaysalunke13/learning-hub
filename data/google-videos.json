@@ -1,172 +1,121 @@
 [
   {
     "type": "video",
-    "id": "TNwKs39uSVk",
-    "title": "Introducing Gemini 3.5 Live Translate",
-    "desc": "Thor Schaeff and Anuda Weerasinghe from Google DeepMind introduce Gemini 3.5 Live Translate, Google's new speech-to-speech translation model now available to developers via the Gemini API.",
+    "id": "i3X7Fv0Z3Uc",
+    "title": "Turning raw hardware sensor data into music with Gemini",
+    "desc": "Using Google AI Studio, Google Antigravity, and Gemini, this creator tapped into raw accelerometer hardware APIs to convert physical motion into browser-based audio.",
     "author": "Google for Developers",
-    "date": "2026-06-09",
-    "views": 192645,
-    "durationSeconds": 209,
-    "duration": "3:29",
+    "date": "2026-10-15",
+    "views": 14170,
+    "durationSeconds": 87,
+    "duration": "1:27",
     "order": 1,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/TNwKs39uSVk/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=TNwKs39uSVk&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=1"
+    "thumbnail": "https://i.ytimg.com/vi/i3X7Fv0Z3Uc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=i3X7Fv0Z3Uc&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=1"
   },
   {
     "type": "video",
-    "id": "YvVsdZL2ogY",
-    "title": "Sameer Samat on Android 17 and the Future of Intelligent Computing",
-    "desc": "Sameer Samat, President of Android at Google, joins host Logan Kilpatrick to discuss Android 17 and what it means to shift from operating systems to intelligence systems. Their conversation covers why Android didn't say ",
+    "id": "lTQHImoeuEY",
+    "title": "Top 3 new model launches at Gemini Audio at Night",
+    "desc": "Catch up on the highlights from Gemini Audio at Night in San Francisco! Google DeepMind’s Paige Bailey breaks down the top 3 developer takeaways from the event and shows how these new audio models come to life through ha",
     "author": "Google for Developers",
-    "date": "2026-06-30",
-    "views": 7610,
-    "durationSeconds": 2410,
-    "duration": "40:10",
+    "date": "2026-10-06",
+    "views": 18382,
+    "durationSeconds": 82,
+    "duration": "1:22",
     "order": 2,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/YvVsdZL2ogY/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=YvVsdZL2ogY&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=2"
+    "thumbnail": "https://i.ytimg.com/vi/lTQHImoeuEY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=lTQHImoeuEY&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=2"
   },
   {
     "type": "video",
-    "id": "2ltcbA2CCTo",
-    "title": "Building Voice Agents with Gemini Live API and Agora’s Conversational AI",
-    "desc": "Mason from Agora walks through how to drop Gemini 3.1 Flash Live into Agora's real-time voice and video infrastructure. Speech-to-speech with multilingual switching, sub-second latency, and tool calls wired to actual har",
+    "id": "7sKHiuE7J-Y",
+    "title": "Building low-latency remote robotics with Gemini",
+    "desc": "Working 1,700 miles apart, Matías and David used Google Antigravity, Google AI Studio, and Gemini to construct a remote robotics framework powered by custom 3D web controllers.",
     "author": "Google for Developers",
-    "date": "2026-04-29",
-    "views": 11894,
-    "durationSeconds": 564,
-    "duration": "9:24",
+    "date": "2026-10-09",
+    "views": 31985,
+    "durationSeconds": 72,
+    "duration": "1:12",
     "order": 3,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/2ltcbA2CCTo/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=2ltcbA2CCTo&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=3"
+    "thumbnail": "https://i.ytimg.com/vi/7sKHiuE7J-Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=7sKHiuE7J-Y&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=3"
   },
   {
     "type": "video",
-    "id": "_en7QoZ_utc",
-    "title": "Building with Gemini Embedding 2: Our first natively multimodal embedding model",
-    "desc": "Explore the new Gemini Embedding 2 model, which maps text, image, video, audio, and documents into a single, unified embedding space. Learn how embeddings are the key to unlocking efficient, accurate understanding across",
+    "id": "-G431WC_-RM",
+    "title": "The next generation of voice AI with Google DeepMind and Sierra AI",
+    "desc": "Valeria Wu (Google DeepMind) and Soham Ray (Sierra AI) explore the latest advances in native audio models and the challenges of building better real-time voice experiences. They discuss conversational latency, multilingu",
     "author": "Google for Developers",
-    "date": "2026-04-30",
-    "views": 17219,
-    "durationSeconds": 675,
-    "duration": "11:15",
+    "date": "2026-09-24",
+    "views": 22827,
+    "durationSeconds": 322,
+    "duration": "5:22",
     "order": 4,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/_en7QoZ_utc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=_en7QoZ_utc&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=4"
+    "thumbnail": "https://i.ytimg.com/vi/-G431WC_-RM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=-G431WC_-RM&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=4"
   },
   {
     "type": "video",
-    "id": "5T0yRNmNRi4",
-    "title": "Introducing Gemini Omni",
-    "desc": "Nicole Brichtova, Dumitru Erhan, Gabe Barth-Maron, and Shlomi Fruchter from Google DeepMind join host Logan Kilpatrick to introduce Gemini Omni, Google DeepMind's new multimodal video generation and editing model. Their ",
+    "id": "pijSNA-hWkg",
+    "title": "Turning code into fabric with Gemini",
+    "desc": "Look what you can do! Explore the intersection of binary coding and fabric-making with Computational Knitting. Built with Gemini, Carrie's project transforms algorithmic processes into unique textile designs knit on a co",
     "author": "Google for Developers",
-    "date": "2026-05-19",
-    "views": 18373,
-    "durationSeconds": 2651,
-    "duration": "44:11",
+    "date": "2026-10-07",
+    "views": 19022,
+    "durationSeconds": 80,
+    "duration": "1:20",
     "order": 5,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/5T0yRNmNRi4/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=5T0yRNmNRi4&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=5"
+    "thumbnail": "https://i.ytimg.com/vi/pijSNA-hWkg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=pijSNA-hWkg&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=5"
   },
   {
     "type": "video",
-    "id": "8hfpLa5wPGo",
-    "title": "Gemini co-leads on project origins and what's next",
-    "desc": "To mark the launch of Gemini 3.5 Flash, Logan Kilpatrick sat down at Gradient Canopy with four of the people who built it: Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, and Oriol Vinyals. They talked about the origin of th",
+    "id": "Rrr2gdbvNFU",
+    "title": "Koray Kavukcuoglu on frontier models, coding agents, and building AGI",
+    "desc": "Google DeepMind SVP and Chief AI Architect Koray Kavukcuoglu joins host Logan Kilpatrick to reflect on the journey from DeepMind’s early reinforcement learning milestones to Gemini and what it means to build AGI at Googl",
     "author": "Google for Developers",
-    "date": "2026-05-29",
-    "views": 22025,
-    "durationSeconds": 2520,
-    "duration": "42:00",
+    "date": "2026-09-01",
+    "views": 25169,
+    "durationSeconds": 1607,
+    "duration": "26:47",
     "order": 6,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/8hfpLa5wPGo/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=8hfpLa5wPGo&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=6"
+    "thumbnail": "https://i.ytimg.com/vi/Rrr2gdbvNFU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Rrr2gdbvNFU&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=6"
   },
   {
     "type": "video",
-    "id": "Psa8mLikdag",
-    "title": "Managed Agents in the Gemini API",
-    "desc": "Logan Kilpatrick sits down with Ali Çevik and Philipp Schmid to walk through managed agents in the Gemini API. One API call, one autonomous agent running in a remote Linux sandbox, powered by Gemini 3.5 Flash and the Ant",
+    "id": "Rnz9mOyxk0k",
+    "title": "How to transform audio into physical prints using Gemini and Google AI Studio",
+    "desc": "Using Nano Banana and Gemini through Antigravity and Google AI Studio, Gayatri found a way to transform spoken words and everyday thoughts into lasting visual artifacts. Watch to explore the build and see how memories be",
     "author": "Google for Developers",
-    "date": "2026-06-03",
-    "views": 3253,
-    "durationSeconds": 575,
-    "duration": "9:35",
+    "date": "2026-10-01",
+    "views": 17688,
+    "durationSeconds": 65,
+    "duration": "1:05",
     "order": 7,
     "tags": [
       "Gemini for Developers"
     ],
-    "thumbnail": "https://i.ytimg.com/vi/Psa8mLikdag/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=Psa8mLikdag&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=7"
-  },
-  {
-    "type": "video",
-    "id": "wIhkYnTpPs4",
-    "title": "Google's ADK + MCP = The Future of AI Agents",
-    "desc": "Join Hemanth HM (Senior Engineering Manager at PayPal, leading AI Labs) as he sits down with Smitha Kolan (Senior Developer Relations at Google Cloud) to dive deep into the world of AI agents, Google's Agent Development ",
-    "author": "Google for Developers",
-    "date": "2026-04-10",
-    "views": 6641,
-    "durationSeconds": 897,
-    "duration": "14:57",
-    "order": 8,
-    "tags": [
-      "Gemini for Developers"
-    ],
-    "thumbnail": "https://i.ytimg.com/vi/wIhkYnTpPs4/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=wIhkYnTpPs4&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=8"
-  },
-  {
-    "type": "video",
-    "id": "jkdvMEvG8T8",
-    "title": "Give your robot a Voice with Gemini Live",
-    "desc": "Run Gemini 3.1 Flash Live on an open source robot.",
-    "author": "Google for Developers",
-    "date": "2026-04-13",
-    "views": 10198,
-    "durationSeconds": 758,
-    "duration": "12:38",
-    "order": 9,
-    "tags": [
-      "Gemini for Developers"
-    ],
-    "thumbnail": "https://i.ytimg.com/vi/jkdvMEvG8T8/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=jkdvMEvG8T8&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=9"
-  },
-  {
-    "type": "video",
-    "id": "J716eJOAnqE",
-    "title": "Build a Voice-Enabled Telegram Bot with the Gemini Interactions API",
-    "desc": "Thor from Google DeepMind walks through how to build a Telegram bot that receives voice messages, reasons over them with Gemini 3.1 Flash, and responds with generated speech in a custom accent, all built with Antigravity",
-    "author": "Google for Developers",
-    "date": "2026-04-16",
-    "views": 6546,
-    "durationSeconds": 552,
-    "duration": "9:12",
-    "order": 10,
-    "tags": [
-      "Gemini for Developers"
-    ],
-    "thumbnail": "https://i.ytimg.com/vi/J716eJOAnqE/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=J716eJOAnqE&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=10"
+    "thumbnail": "https://i.ytimg.com/vi/Rnz9mOyxk0k/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Rnz9mOyxk0k&list=PLOU2XLYxmsIKfqoxytJ70EOjSVexbqbtc&index=7"
   }
 ]

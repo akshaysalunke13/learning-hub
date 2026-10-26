@@ -1,6 +1,19 @@
 [
   {
     "type": "article",
+    "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+    "desc": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-10-19",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+  },
+  {
+    "type": "article",
     "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
     "desc": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers: A structured, auditable knowledge architecture separates what [...]",
     "author": "Meta Engineering",
@@ -310,18 +323,5 @@
       "Engineering at Meta — AI Research"
     ],
     "url": "https://engineering.fb.com/2024/01/11/ml-applications/meta-advancing-genai/"
-  },
-  {
-    "type": "article",
-    "title": "How Meta is creating custom silicon for AI",
-    "desc": "Olivia Wu, Meta’s Technical Lead for Infra Silicon, discusses the design and development of Meta’s first-generation AI inference accelerator. [...]",
-    "author": "Meta Engineering",
-    "role": "AI Research",
-    "date": "2023-10-18",
-    "dateApproximate": false,
-    "tags": [
-      "Engineering at Meta — AI Research"
-    ],
-    "url": "https://engineering.fb.com/2023/10/18/ml-applications/meta-ai-custom-silicon-olivia-wu/"
   }
 ]
