@@ -1,6 +1,32 @@
 [
   {
     "type": "article",
+    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+    "desc": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-10-29",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/"
+  },
+  {
+    "type": "article",
+    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+    "desc": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside [...]",
+    "author": "Meta Engineering",
+    "role": "AI Research",
+    "date": "2026-10-27",
+    "dateApproximate": false,
+    "tags": [
+      "Engineering at Meta — AI Research"
+    ],
+    "url": "https://engineering.fb.com/2026/10/27/security/privacylib/"
+  },
+  {
+    "type": "article",
     "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
     "desc": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own [...]",
     "author": "Meta Engineering",
@@ -297,31 +323,5 @@
       "Engineering at Meta — AI Research"
     ],
     "url": "https://engineering.fb.com/2024/08/05/data-center-engineering/roce-network-distributed-ai-training-at-scale/"
-  },
-  {
-    "type": "article",
-    "title": "Building Meta’s GenAI Infrastructure",
-    "desc": "Marking a major investment in Meta’s AI future, we are announcing two 24k GPU clusters. We are sharing details on the hardware, network, storage, design, performance, and software that help us extract high throughput and reliability for various AI workloads. We use this cluster design for Llama 3 training. We are strongly committed to open [...]",
-    "author": "Meta Engineering",
-    "role": "AI Research",
-    "date": "2024-03-12",
-    "dateApproximate": false,
-    "tags": [
-      "Engineering at Meta — AI Research"
-    ],
-    "url": "https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/"
-  },
-  {
-    "type": "article",
-    "title": "How Meta is advancing GenAI",
-    "desc": "What’s going on with generative AI (GenAI) at Meta? And what does the future have in store? In this episode of the Meta Tech Podcast, Meta engineer Pascal Hartig (@passy) speaks with Devi Parikh, an AI research director at Meta. They cover a wide range of topics, including the history and future of GenAI and the most [...]",
-    "author": "Meta Engineering",
-    "role": "AI Research",
-    "date": "2024-01-11",
-    "dateApproximate": false,
-    "tags": [
-      "Engineering at Meta — AI Research"
-    ],
-    "url": "https://engineering.fb.com/2024/01/11/ml-applications/meta-advancing-genai/"
   }
 ]
