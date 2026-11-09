@@ -1,6 +1,45 @@
 [
   {
     "type": "article",
+    "title": "What is Pathways? Single-controller training for large models",
+    "desc": "Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-11-09",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/"
+  },
+  {
+    "type": "article",
+    "title": "Agent Distraction",
+    "desc": "Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized scope creep on open bugs (57%). Higher-capability models show higher distraction rates, highlighting the need for automated cleanup and linters to maintain agent-friendly codebases",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-11-06",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/agent-distraction/"
+  },
+  {
+    "type": "article",
+    "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+    "desc": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-11-03",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/"
+  },
+  {
+    "type": "article",
     "title": "DevFest is back!",
     "desc": "DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme \"Build, Secure, Scale,\" participants gain hands-on experience with Google’s developer stack—including Gemini, Google AI Studio, Google Antigravity, and Web MCP—through live workshops and codelabs. The conference focuses on enabling developers to prototype rapidly, ensure secure and private deployments, and leverage production-ready infrastructure.",
     "author": "Google for Developers",
@@ -27,19 +66,6 @@
   },
   {
     "type": "article",
-    "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services",
-    "desc": "LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-10-28",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/"
-  },
-  {
-    "type": "article",
     "title": "Hill-Climbing Agent Quality with Agents CLI Evaluation",
     "desc": "This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track quality over time.",
     "author": "Google for Developers",
@@ -53,16 +79,16 @@
   },
   {
     "type": "article",
-    "title": "Fast, reliable A2UI, with swappable inference formats",
-    "desc": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.",
+    "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services",
+    "desc": "LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.",
     "author": "Google for Developers",
     "role": "Developers Blog",
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "dateApproximate": false,
     "tags": [
       "Google for Developers Blog"
     ],
-    "url": "https://developers.googleblog.com/fast-reliable-a2ui/"
+    "url": "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/"
   },
   {
     "type": "article",
@@ -76,6 +102,19 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/"
+  },
+  {
+    "type": "article",
+    "title": "Fast, reliable A2UI, with swappable inference formats",
+    "desc": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.",
+    "author": "Google for Developers",
+    "role": "Developers Blog",
+    "date": "2026-10-27",
+    "dateApproximate": false,
+    "tags": [
+      "Google for Developers Blog"
+    ],
+    "url": "https://developers.googleblog.com/fast-reliable-a2ui/"
   },
   {
     "type": "article",
@@ -219,44 +258,5 @@
       "Google for Developers Blog"
     ],
     "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/"
-  },
-  {
-    "type": "article",
-    "title": "Evaluating AI agents: moving past the vibe check",
-    "desc": "A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-10-15",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/"
-  },
-  {
-    "type": "article",
-    "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens",
-    "desc": "Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-10-15",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/"
-  },
-  {
-    "type": "article",
-    "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
-    "desc": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.",
-    "author": "Google for Developers",
-    "role": "Developers Blog",
-    "date": "2026-10-14",
-    "dateApproximate": false,
-    "tags": [
-      "Google for Developers Blog"
-    ],
-    "url": "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/"
   }
 ]
